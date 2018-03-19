@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blockchain Testing Program</title>
+    <style>
+        pre {
+            background: #E0F2F7;
+        }
+    </style>
+</head>
+
+<body translate="no">
+
+    <h4>DBCS Testing</h4>
+
+    <table style="height: 97px;">
+        <tbody>
+            <tr>
+                <td><button id="setDBCS">輸入</button></td>
+                <td><input id="data1_dbcs" type="text" placeholder="輸入中文字" /></td>
+            </tr>
+
+            <tr>
+                <td><button id="getDBCS">查詢</button></td>
+                <td><input id="data2_dbcs" type="text" readonly /></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <h4>執行結果 : </h4>
+    <pre id="log"></pre>
+
+    <script src='web3.min.js'></script>
+    <script src='jquery.min.js'></script>
+
+    <script>
+        function log(input) {
+            if (typeof input === 'object') {
+                input = JSON.stringify(input, null, 2);
+            }
+            $('#log').html(input + '\n' + $('#log').html());
+        }
+
+        var web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'))
+        var eth = web3.eth
+
+        var DBCSContractAbi = [{"constant":true,"inputs":[],"name":"getDBCS","outputs":[{"name":"","type":"bytes32"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"dbcsStr","type":"bytes32"}],"name":"setDBCS","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"dbcsStr","type":"bytes32"}],"name":"EventForSetDBCS","type":"event"}];
+
+        var DBCSContract = web3.eth.contract(DBCSContractAbi);
+        var DBCSContractAddress = '0xd93ca949f3cdbf8bfed4002e57f63494182a6e77';
+        var DBCS = DBCSContract.at(DBCSContractAddress);
+
+        alert('Finish getting DBCSContract Instance');
+
+		var account = web3.eth.accounts[0];
+
+        contractControl(DBCS, account, eth)
+
+        function contractControl(DBCS, account, eth) {
+
+            $('#getDBCS').on('click', function() {
+
+                //alert( utf16Encode([0x4E8C]) );
+                //alert(utf16([0x6211]))
+
+                var outputhex = DBCS.getDBCS();
+                alert(outputhex);
+                var outputstr = hex_to_str(outputhex);
+                alert(outputstr);
+                $('#data2_dbcs').val(outputstr)
+				
+                log('查詢結果:'+outputstr)
+
+			})
+			
+            $('#setDBCS').on('click', function() {
+
+				var inputstr = $('#data1_dbcs').val()
+
+                //var inputhex = inputstr.hexEncode();
+
+				//alert(inputhex);
+
+                var txHashA = DBCS.setDBCS(inputstr,{
+                    from: account,
+                    gas: 600000
+                }, function(err, txhash) {
+                    if (!err) {
+                        var theEvent = DBCS.EventForSetDBCS({
+                            from: account
+                        });
+                        theEvent.watch(function(err, event) {
+                            if (!err) {
+                                alert('設定成功');
+                                log(event);
+                                theEvent.stopWatching();
+                            } else {
+                                log(err);
+                            }
+                        });
+                    } else {
+                        log(err);
+                    }
+                });
+				
+            })
+			
+		}
+
+        function hex_to_str(data)
+        {
+            if (data.length == 0) return '';
+
+            var data_hex=data.substr(2);  // get rid of "0x"
+            var data_str='';
+
+            for(i=0;i<data_hex.length;i+=4)
+            {
+                var tmp_str = '0x';
+                tmp_str += data_hex.charAt(i) + data_hex.charAt(i+1) + data_hex.charAt(i+2) + data_hex.charAt(i+3);
+
+                var tmp_int = parseInt(tmp_str,16);
+                var tmp_char = String.fromCharCode(tmp_int)
+                data_str = data_str + tmp_char;
+            }
+
+            return data_str;
+        }
+
+/*
+        function utf16(input) {
+            var output = [], i = 0, len = input.length, value;
+            while (i < len) {
+                value = input[i++];
+                alert('value='+value+typeof(value));
+                if ( (value & 0xF800) === 0xD800 ) {
+                    throw new RangeError("UTF-16(encode): Illegal UTF-16 value");
+                }
+                if (value > 0xFFFF) {
+                    value -= 0x10000;
+                    output.push(String.fromCharCode(((value >>>10) & 0x3FF) | 0xD800));
+                    value = 0xDC00 | (value & 0x3FF);
+                }
+                alert('value='+value+String.fromCharCode(value))
+                output.push(String.fromCharCode(value));
+            }
+            return output.join("");
+        }
+*/
+
+    </script>
+</body>
+
+</html>

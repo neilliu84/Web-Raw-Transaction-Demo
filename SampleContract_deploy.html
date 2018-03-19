@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SampleContract_Deploy</title>
+    <style>
+        pre {
+            background: #E0F2F7;
+        }
+    </style>
+</head>
+
+<body translate="no">
+
+    <h4>log : </h4>
+    <pre id="log"></pre>
+
+    <script src='web3.min.js'></script>
+    <script src='jquery.min.js'></script>
+
+    <script>
+        function log(input) {
+            if (typeof input === 'object')
+                $('#log').text($('#log').text() + JSON.stringify(input, null, 2) + '\n')
+            else
+                $('#log').text($('#log').text() + input + '\n')
+        }
+
+        $(function() {
+            // 連結 enode
+            var web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'))
+            var eth = web3.eth
+
+
+            var simplestorageAbi = [{"constant":false,"inputs":[{"name":"x","type":"uint256"}],"name":"setX","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"getSum","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"y","type":"uint256"}],"name":"setY","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"AddXY","outputs":[],"payable":false,"type":"function"},{"inputs":[],"payable":false,"type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_x","type":"uint256"}],"name":"EventForSetX","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_x","type":"uint256"}],"name":"EventForSetY","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"_sum","type":"uint256"}],"name":"EventForAddXY","type":"event"}];
+
+			alert(web3.eth.accounts[0])
+            var simplestorageContract = web3.eth.contract(simplestorageAbi)
+
+            var simplestorage = simplestorageContract.new(
+                web3.eth.accounts[0],
+                {
+                    from: web3.eth.accounts[0],
+                    data: '0x60606040526000805560006001556000600255341561001d57600080fd5b5b5b5b6101eb8061002f6000396000f30060606040526000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680634018d9aa1461005f578063569c5f6d1461008257806368d466b8146100ab578063f80d2ba1146100ce575b600080fd5b341561006a57600080fd5b61008060048080359060200190919050506100e3565b005b341561008d57600080fd5b610095610127565b6040518082815260200191505060405180910390f35b34156100b657600080fd5b6100cc6004808035906020019091905050610132565b005b34156100d957600080fd5b6100e1610176565b005b806000819055507f6995e2a4f0b68e4f570579fa18bd59ce20bfeea16e38e0d2b7fa3df64fefd8686000546040518082815260200191505060405180910390a15b50565b600060025490505b90565b806001819055507fb19445d60c07412a6d38a72267e574b2f121d613f8a4ef13efaad6445f167a4d6001546040518082815260200191505060405180910390a15b50565b600154600054016002819055507f1ae8eab7642e6320c61e1f52d54fad24608716951d7e2e6f027843b8d41ab3866002546040518082815260200191505060405180910390a15b5600a165627a7a7230582050f20bdde963e98a9265f851ee4338cddde2f8c1f0d41dd6b09021d1de0902300029',gas: 4700000
+                },
+                function(e, contract) {
+                    alert(contract)
+                    if (typeof contract.address !== 'undefined') {
+                        log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash)
+                    }
+                })
+
+        })
+
+    </script>
+</body>
+
+</html>

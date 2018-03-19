@@ -1,0 +1,2977 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.4.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ethereumjs-accounts',
+1 verbose cli   '--sav',
+1 verbose cli   'e' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData ethereumjs-accounts
+8 silly fetchPackageMetaData e
+9 silly fetchNamedPackageData ethereumjs-accounts
+10 silly mapToRegistry name ethereumjs-accounts
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'ethereumjs-accounts',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'ethereumjs-accounts',
+13 silly mapToRegistry   name: 'ethereumjs-accounts',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/ethereumjs-accounts
+15 silly fetchNamedPackageData e
+16 silly mapToRegistry name e
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'e',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'e',
+19 silly mapToRegistry   name: 'e',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/e
+21 verbose request uri https://registry.npmjs.org/ethereumjs-accounts
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 1:47:28 AM
+24 verbose request id 5ab77357ae4b15b7
+25 verbose etag W/"595cc71c-4b57"
+26 verbose lastModified Wed, 05 Jul 2017 11:01:48 GMT
+27 http request GET https://registry.npmjs.org/ethereumjs-accounts
+28 verbose request uri https://registry.npmjs.org/e
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 1:47:28 AM
+31 verbose etag W/"570823cb-1c4f"
+32 verbose lastModified Fri, 08 Apr 2016 21:34:03 GMT
+33 http request GET https://registry.npmjs.org/e
+34 http 304 https://registry.npmjs.org/ethereumjs-accounts
+35 verbose headers { date: 'Sat, 29 Jul 2017 17:47:28 GMT',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   'cache-control': 'max-age=300',
+35 verbose headers   etag: 'W/"595cc71c-4b57"',
+35 verbose headers   age: '0',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+35 verbose headers   'x-cache': 'HIT',
+35 verbose headers   'x-cache-hits': '1',
+35 verbose headers   'x-timer': 'S1501350448.477683,VS0,VE558',
+35 verbose headers   vary: 'Accept-Encoding, Accept' }
+36 silly get cb [ 304,
+36 silly get   { date: 'Sat, 29 Jul 2017 17:47:28 GMT',
+36 silly get     via: '1.1 varnish',
+36 silly get     'cache-control': 'max-age=300',
+36 silly get     etag: 'W/"595cc71c-4b57"',
+36 silly get     age: '0',
+36 silly get     connection: 'keep-alive',
+36 silly get     'x-served-by': 'cache-itm7422-ITM',
+36 silly get     'x-cache': 'HIT',
+36 silly get     'x-cache-hits': '1',
+36 silly get     'x-timer': 'S1501350448.477683,VS0,VE558',
+36 silly get     vary: 'Accept-Encoding, Accept' } ]
+37 verbose etag https://registry.npmjs.org/ethereumjs-accounts from cache
+38 verbose get saving ethereumjs-accounts to /Users/admin/.npm/registry.npmjs.org/ethereumjs-accounts/.cache.json
+39 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+40 http 304 https://registry.npmjs.org/e
+41 verbose headers { date: 'Sat, 29 Jul 2017 17:47:28 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   etag: 'W/"570823cb-1c4f"',
+41 verbose headers   age: '0',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-itm7425-ITM',
+41 verbose headers   'x-cache': 'MISS',
+41 verbose headers   'x-cache-hits': '0',
+41 verbose headers   'x-timer': 'S1501350449.501557,VS0,VE555',
+41 verbose headers   vary: 'Accept-Encoding, Accept' }
+42 silly get cb [ 304,
+42 silly get   { date: 'Sat, 29 Jul 2017 17:47:28 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     etag: 'W/"570823cb-1c4f"',
+42 silly get     age: '0',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-itm7425-ITM',
+42 silly get     'x-cache': 'MISS',
+42 silly get     'x-cache-hits': '0',
+42 silly get     'x-timer': 'S1501350449.501557,VS0,VE555',
+42 silly get     vary: 'Accept-Encoding, Accept' } ]
+43 verbose etag https://registry.npmjs.org/e from cache
+44 verbose get saving e to /Users/admin/.npm/registry.npmjs.org/e/.cache.json
+45 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+46 silly install normalizeTree
+47 silly loadCurrentTree Finishing
+48 silly loadIdealTree Starting
+49 silly install loadIdealTree
+50 silly cloneCurrentTree Starting
+51 silly install cloneCurrentTreeToIdealTree
+52 silly cloneCurrentTree Finishing
+53 silly loadShrinkwrap Starting
+54 silly install loadShrinkwrap
+55 silly loadShrinkwrap Finishing
+56 silly loadAllDepsIntoIdealTree Starting
+57 silly install loadAllDepsIntoIdealTree
+58 silly resolveWithNewModule ethereumjs-accounts@0.0.15 checking installable status
+59 silly cache add args [ 'ethereumjs-accounts', null ]
+60 verbose cache add spec ethereumjs-accounts
+61 silly resolveWithNewModule e@0.0.4 checking installable status
+62 silly cache add args [ 'e', null ]
+63 verbose cache add spec e
+64 silly cache add parsed spec Result {
+64 silly cache add   raw: 'ethereumjs-accounts',
+64 silly cache add   scope: null,
+64 silly cache add   escapedName: 'ethereumjs-accounts',
+64 silly cache add   name: 'ethereumjs-accounts',
+64 silly cache add   rawSpec: '',
+64 silly cache add   spec: 'latest',
+64 silly cache add   type: 'tag' }
+65 silly addNamed ethereumjs-accounts@latest
+66 verbose addNamed "latest" is being treated as a dist-tag for ethereumjs-accounts
+67 info addNameTag [ 'ethereumjs-accounts', 'latest' ]
+68 silly mapToRegistry name ethereumjs-accounts
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'ethereumjs-accounts',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'ethereumjs-accounts',
+71 silly mapToRegistry   name: 'ethereumjs-accounts',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/ethereumjs-accounts
+73 verbose addNameTag registry:https://registry.npmjs.org/ethereumjs-accounts not in flight; fetching
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: 'e',
+74 silly cache add   scope: null,
+74 silly cache add   escapedName: 'e',
+74 silly cache add   name: 'e',
+74 silly cache add   rawSpec: '',
+74 silly cache add   spec: 'latest',
+74 silly cache add   type: 'tag' }
+75 silly addNamed e@latest
+76 verbose addNamed "latest" is being treated as a dist-tag for e
+77 info addNameTag [ 'e', 'latest' ]
+78 silly mapToRegistry name e
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'e',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   escapedName: 'e',
+81 silly mapToRegistry   name: 'e',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npmjs.org/e
+83 verbose addNameTag registry:https://registry.npmjs.org/e not in flight; fetching
+84 verbose get https://registry.npmjs.org/ethereumjs-accounts not expired, no request
+85 silly addNameTag next cb for ethereumjs-accounts with tag latest
+86 silly addNamed ethereumjs-accounts@0.0.15
+87 verbose addNamed "0.0.15" is a plain semver version for ethereumjs-accounts
+88 verbose get https://registry.npmjs.org/e not expired, no request
+89 silly addNameTag next cb for e with tag latest
+90 silly addNamed e@0.0.4
+91 verbose addNamed "0.0.4" is a plain semver version for e
+92 silly cache afterAdd e@0.0.4
+93 verbose afterAdd /Users/admin/.npm/e/0.0.4/package/package.json not in flight; writing
+94 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+95 silly cache afterAdd ethereumjs-accounts@0.0.15
+96 verbose afterAdd /Users/admin/.npm/ethereumjs-accounts/0.0.15/package/package.json not in flight; writing
+97 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+98 verbose afterAdd /Users/admin/.npm/ethereumjs-accounts/0.0.15/package/package.json written
+99 verbose afterAdd /Users/admin/.npm/e/0.0.4/package/package.json written
+100 silly fetchNamedPackageData coffee-script
+101 silly mapToRegistry name coffee-script
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'coffee-script',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   escapedName: 'coffee-script',
+104 silly mapToRegistry   name: 'coffee-script',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+106 verbose request uri https://registry.npmjs.org/coffee-script
+107 verbose request no auth needed
+108 info attempt registry request try #1 at 1:47:29 AM
+109 verbose etag W/"596c5f6e-e71d"
+110 verbose lastModified Mon, 17 Jul 2017 06:55:42 GMT
+111 http request GET https://registry.npmjs.org/coffee-script
+112 http 304 https://registry.npmjs.org/coffee-script
+113 verbose headers { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+113 verbose headers   via: '1.1 varnish',
+113 verbose headers   'cache-control': 'max-age=300',
+113 verbose headers   etag: 'W/"596c5f6e-e71d"',
+113 verbose headers   age: '64',
+113 verbose headers   connection: 'keep-alive',
+113 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+113 verbose headers   'x-cache': 'HIT',
+113 verbose headers   'x-cache-hits': '1',
+113 verbose headers   'x-timer': 'S1501350449.221449,VS0,VE0',
+113 verbose headers   vary: 'Accept-Encoding, Accept' }
+114 silly get cb [ 304,
+114 silly get   { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+114 silly get     via: '1.1 varnish',
+114 silly get     'cache-control': 'max-age=300',
+114 silly get     etag: 'W/"596c5f6e-e71d"',
+114 silly get     age: '64',
+114 silly get     connection: 'keep-alive',
+114 silly get     'x-served-by': 'cache-itm7422-ITM',
+114 silly get     'x-cache': 'HIT',
+114 silly get     'x-cache-hits': '1',
+114 silly get     'x-timer': 'S1501350449.221449,VS0,VE0',
+114 silly get     vary: 'Accept-Encoding, Accept' } ]
+115 verbose etag https://registry.npmjs.org/coffee-script from cache
+116 verbose get saving coffee-script to /Users/admin/.npm/registry.npmjs.org/coffee-script/.cache.json
+117 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+118 silly resolveWithNewModule coffee-script@1.12.7 checking installable status
+119 silly cache add args [ 'coffee-script@*', null ]
+120 verbose cache add spec coffee-script@*
+121 silly cache add parsed spec Result {
+121 silly cache add   raw: 'coffee-script@*',
+121 silly cache add   scope: null,
+121 silly cache add   escapedName: 'coffee-script',
+121 silly cache add   name: 'coffee-script',
+121 silly cache add   rawSpec: '*',
+121 silly cache add   spec: '*',
+121 silly cache add   type: 'range' }
+122 silly addNamed coffee-script@*
+123 verbose addNamed "*" is a valid semver range for coffee-script
+124 silly addNameRange { name: 'coffee-script', range: '*', hasData: false }
+125 silly mapToRegistry name coffee-script
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'coffee-script',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'coffee-script',
+128 silly mapToRegistry   name: 'coffee-script',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+130 verbose addNameRange registry:https://registry.npmjs.org/coffee-script not in flight; fetching
+131 verbose get https://registry.npmjs.org/coffee-script not expired, no request
+132 silly addNameRange number 2 { name: 'coffee-script', range: '*', hasData: true }
+133 silly addNameRange versions [ 'coffee-script',
+133 silly addNameRange   [ '0.7.0',
+133 silly addNameRange     '0.7.1',
+133 silly addNameRange     '0.7.2',
+133 silly addNameRange     '0.9.0',
+133 silly addNameRange     '0.9.1',
+133 silly addNameRange     '0.9.2',
+133 silly addNameRange     '0.9.3',
+133 silly addNameRange     '0.9.4',
+133 silly addNameRange     '0.9.5',
+133 silly addNameRange     '0.9.6',
+133 silly addNameRange     '1.0.0',
+133 silly addNameRange     '1.0.1',
+133 silly addNameRange     '1.1.0',
+133 silly addNameRange     '1.1.1',
+133 silly addNameRange     '1.1.2',
+133 silly addNameRange     '1.1.3',
+133 silly addNameRange     '1.2.0',
+133 silly addNameRange     '1.3.0',
+133 silly addNameRange     '1.3.1',
+133 silly addNameRange     '1.3.2',
+133 silly addNameRange     '1.3.3',
+133 silly addNameRange     '1.4.0',
+133 silly addNameRange     '1.5.0',
+133 silly addNameRange     '1.6.0',
+133 silly addNameRange     '1.6.1',
+133 silly addNameRange     '1.6.2',
+133 silly addNameRange     '1.6.3',
+133 silly addNameRange     '1.7.0',
+133 silly addNameRange     '1.7.1',
+133 silly addNameRange     '1.8.0',
+133 silly addNameRange     '1.9.0',
+133 silly addNameRange     '1.9.1',
+133 silly addNameRange     '1.9.2',
+133 silly addNameRange     '1.9.3',
+133 silly addNameRange     '1.10.0',
+133 silly addNameRange     '1.11.0',
+133 silly addNameRange     '1.11.1',
+133 silly addNameRange     '1.12.0',
+133 silly addNameRange     '1.12.1',
+133 silly addNameRange     '1.12.2',
+133 silly addNameRange     '1.12.3',
+133 silly addNameRange     '1.12.4',
+133 silly addNameRange     '1.12.5',
+133 silly addNameRange     '1.12.6',
+133 silly addNameRange     '1.12.7' ] ]
+134 silly addNamed coffee-script@1.12.7
+135 verbose addNamed "1.12.7" is a plain semver version for coffee-script
+136 silly cache afterAdd coffee-script@1.12.7
+137 verbose afterAdd /Users/admin/.npm/coffee-script/1.12.7/package/package.json not in flight; writing
+138 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+139 verbose afterAdd /Users/admin/.npm/coffee-script/1.12.7/package/package.json written
+140 silly fetchNamedPackageData ethereumjs-tx
+141 silly mapToRegistry name ethereumjs-tx
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry data Result {
+144 silly mapToRegistry   raw: 'ethereumjs-tx',
+144 silly mapToRegistry   scope: null,
+144 silly mapToRegistry   escapedName: 'ethereumjs-tx',
+144 silly mapToRegistry   name: 'ethereumjs-tx',
+144 silly mapToRegistry   rawSpec: '',
+144 silly mapToRegistry   spec: 'latest',
+144 silly mapToRegistry   type: 'tag' }
+145 silly mapToRegistry uri https://registry.npmjs.org/ethereumjs-tx
+146 verbose request uri https://registry.npmjs.org/ethereumjs-tx
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 1:47:29 AM
+149 verbose etag W/"5965737e-180b6"
+150 verbose lastModified Wed, 12 Jul 2017 00:55:26 GMT
+151 http request GET https://registry.npmjs.org/ethereumjs-tx
+152 http 304 https://registry.npmjs.org/ethereumjs-tx
+153 verbose headers { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+153 verbose headers   via: '1.1 varnish',
+153 verbose headers   'cache-control': 'max-age=300',
+153 verbose headers   etag: 'W/"5965737e-180b6"',
+153 verbose headers   age: '0',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-served-by': 'cache-itm7425-ITM',
+153 verbose headers   'x-cache': 'HIT',
+153 verbose headers   'x-cache-hits': '1',
+153 verbose headers   'x-timer': 'S1501350449.296601,VS0,VE132',
+153 verbose headers   vary: 'Accept-Encoding, Accept' }
+154 silly get cb [ 304,
+154 silly get   { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     'cache-control': 'max-age=300',
+154 silly get     etag: 'W/"5965737e-180b6"',
+154 silly get     age: '0',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-itm7425-ITM',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '1',
+154 silly get     'x-timer': 'S1501350449.296601,VS0,VE132',
+154 silly get     vary: 'Accept-Encoding, Accept' } ]
+155 verbose etag https://registry.npmjs.org/ethereumjs-tx from cache
+156 verbose get saving ethereumjs-tx to /Users/admin/.npm/registry.npmjs.org/ethereumjs-tx/.cache.json
+157 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+158 silly resolveWithNewModule ethereumjs-tx@0.4.0 checking installable status
+159 silly cache add args [ 'ethereumjs-tx@^0.4.0', null ]
+160 verbose cache add spec ethereumjs-tx@^0.4.0
+161 silly cache add parsed spec Result {
+161 silly cache add   raw: 'ethereumjs-tx@^0.4.0',
+161 silly cache add   scope: null,
+161 silly cache add   escapedName: 'ethereumjs-tx',
+161 silly cache add   name: 'ethereumjs-tx',
+161 silly cache add   rawSpec: '^0.4.0',
+161 silly cache add   spec: '>=0.4.0 <0.5.0',
+161 silly cache add   type: 'range' }
+162 silly addNamed ethereumjs-tx@>=0.4.0 <0.5.0
+163 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for ethereumjs-tx
+164 silly addNameRange { name: 'ethereumjs-tx',
+164 silly addNameRange   range: '>=0.4.0 <0.5.0',
+164 silly addNameRange   hasData: false }
+165 silly mapToRegistry name ethereumjs-tx
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry data Result {
+168 silly mapToRegistry   raw: 'ethereumjs-tx',
+168 silly mapToRegistry   scope: null,
+168 silly mapToRegistry   escapedName: 'ethereumjs-tx',
+168 silly mapToRegistry   name: 'ethereumjs-tx',
+168 silly mapToRegistry   rawSpec: '',
+168 silly mapToRegistry   spec: 'latest',
+168 silly mapToRegistry   type: 'tag' }
+169 silly mapToRegistry uri https://registry.npmjs.org/ethereumjs-tx
+170 verbose addNameRange registry:https://registry.npmjs.org/ethereumjs-tx not in flight; fetching
+171 verbose get https://registry.npmjs.org/ethereumjs-tx not expired, no request
+172 silly addNameRange number 2 { name: 'ethereumjs-tx', range: '>=0.4.0 <0.5.0', hasData: true }
+173 silly addNameRange versions [ 'ethereumjs-tx',
+173 silly addNameRange   [ '0.1.0',
+173 silly addNameRange     '0.2.0',
+173 silly addNameRange     '0.2.1',
+173 silly addNameRange     '0.2.2',
+173 silly addNameRange     '0.2.3',
+173 silly addNameRange     '0.3.0',
+173 silly addNameRange     '0.4.0',
+173 silly addNameRange     '0.5.1',
+173 silly addNameRange     '0.5.2',
+173 silly addNameRange     '0.5.3',
+173 silly addNameRange     '0.5.4',
+173 silly addNameRange     '0.5.5',
+173 silly addNameRange     '0.5.6',
+173 silly addNameRange     '0.5.7',
+173 silly addNameRange     '0.5.8',
+173 silly addNameRange     '0.5.9',
+173 silly addNameRange     '0.6.0',
+173 silly addNameRange     '0.6.1',
+173 silly addNameRange     '0.6.2',
+173 silly addNameRange     '0.6.3',
+173 silly addNameRange     '0.6.4',
+173 silly addNameRange     '0.6.5',
+173 silly addNameRange     '0.6.6',
+173 silly addNameRange     '0.6.7',
+173 silly addNameRange     '0.6.8',
+173 silly addNameRange     '0.6.9',
+173 silly addNameRange     '0.6.10',
+173 silly addNameRange     '0.6.11',
+173 silly addNameRange     '0.6.12',
+173 silly addNameRange     '0.6.14',
+173 silly addNameRange     '0.7.0',
+173 silly addNameRange     '0.7.1',
+173 silly addNameRange     '0.7.2',
+173 silly addNameRange     '0.7.3',
+173 silly addNameRange     '1.0.0',
+173 silly addNameRange     '1.0.1',
+173 silly addNameRange     '1.1.0',
+173 silly addNameRange     '1.1.1',
+173 silly addNameRange     '1.1.2',
+173 silly addNameRange     '1.1.3',
+173 silly addNameRange     '1.1.4',
+173 silly addNameRange     '1.2.0',
+173 silly addNameRange     '1.2.1',
+173 silly addNameRange     '1.2.2',
+173 silly addNameRange     '1.2.4',
+173 silly addNameRange     '1.2.5',
+173 silly addNameRange     '1.3.0',
+173 silly addNameRange     '1.3.1',
+173 silly addNameRange     '1.3.2',
+173 silly addNameRange     '1.3.3' ] ]
+174 silly addNamed ethereumjs-tx@0.4.0
+175 verbose addNamed "0.4.0" is a plain semver version for ethereumjs-tx
+176 silly cache afterAdd ethereumjs-tx@0.4.0
+177 verbose afterAdd /Users/admin/.npm/ethereumjs-tx/0.4.0/package/package.json not in flight; writing
+178 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+179 verbose afterAdd /Users/admin/.npm/ethereumjs-tx/0.4.0/package/package.json written
+180 silly fetchNamedPackageData bn.js
+181 silly mapToRegistry name bn.js
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry data Result {
+184 silly mapToRegistry   raw: 'bn.js',
+184 silly mapToRegistry   scope: null,
+184 silly mapToRegistry   escapedName: 'bn.js',
+184 silly mapToRegistry   name: 'bn.js',
+184 silly mapToRegistry   rawSpec: '',
+184 silly mapToRegistry   spec: 'latest',
+184 silly mapToRegistry   type: 'tag' }
+185 silly mapToRegistry uri https://registry.npmjs.org/bn.js
+186 silly fetchNamedPackageData elliptic
+187 silly mapToRegistry name elliptic
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry https://registry.npmjs.org/
+190 silly mapToRegistry data Result {
+190 silly mapToRegistry   raw: 'elliptic',
+190 silly mapToRegistry   scope: null,
+190 silly mapToRegistry   escapedName: 'elliptic',
+190 silly mapToRegistry   name: 'elliptic',
+190 silly mapToRegistry   rawSpec: '',
+190 silly mapToRegistry   spec: 'latest',
+190 silly mapToRegistry   type: 'tag' }
+191 silly mapToRegistry uri https://registry.npmjs.org/elliptic
+192 silly fetchNamedPackageData ethereumjs-util
+193 silly mapToRegistry name ethereumjs-util
+194 silly mapToRegistry using default registry
+195 silly mapToRegistry registry https://registry.npmjs.org/
+196 silly mapToRegistry data Result {
+196 silly mapToRegistry   raw: 'ethereumjs-util',
+196 silly mapToRegistry   scope: null,
+196 silly mapToRegistry   escapedName: 'ethereumjs-util',
+196 silly mapToRegistry   name: 'ethereumjs-util',
+196 silly mapToRegistry   rawSpec: '',
+196 silly mapToRegistry   spec: 'latest',
+196 silly mapToRegistry   type: 'tag' }
+197 silly mapToRegistry uri https://registry.npmjs.org/ethereumjs-util
+198 silly fetchNamedPackageData rlp
+199 silly mapToRegistry name rlp
+200 silly mapToRegistry using default registry
+201 silly mapToRegistry registry https://registry.npmjs.org/
+202 silly mapToRegistry data Result {
+202 silly mapToRegistry   raw: 'rlp',
+202 silly mapToRegistry   scope: null,
+202 silly mapToRegistry   escapedName: 'rlp',
+202 silly mapToRegistry   name: 'rlp',
+202 silly mapToRegistry   rawSpec: '',
+202 silly mapToRegistry   spec: 'latest',
+202 silly mapToRegistry   type: 'tag' }
+203 silly mapToRegistry uri https://registry.npmjs.org/rlp
+204 silly fetchNamedPackageData secp256k1
+205 silly mapToRegistry name secp256k1
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry data Result {
+208 silly mapToRegistry   raw: 'secp256k1',
+208 silly mapToRegistry   scope: null,
+208 silly mapToRegistry   escapedName: 'secp256k1',
+208 silly mapToRegistry   name: 'secp256k1',
+208 silly mapToRegistry   rawSpec: '',
+208 silly mapToRegistry   spec: 'latest',
+208 silly mapToRegistry   type: 'tag' }
+209 silly mapToRegistry uri https://registry.npmjs.org/secp256k1
+210 verbose request uri https://registry.npmjs.org/rlp
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 1:47:29 AM
+213 verbose etag W/"5601fee9-6d7a"
+214 verbose lastModified Wed, 23 Sep 2015 01:22:49 GMT
+215 http request GET https://registry.npmjs.org/rlp
+216 verbose request uri https://registry.npmjs.org/ethereumjs-util
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 1:47:29 AM
+219 verbose etag W/"592f2c3e-186e5"
+220 verbose lastModified Wed, 31 May 2017 20:49:02 GMT
+221 http request GET https://registry.npmjs.org/ethereumjs-util
+222 verbose request uri https://registry.npmjs.org/elliptic
+223 verbose request no auth needed
+224 info attempt registry request try #1 at 1:47:29 AM
+225 verbose etag W/"596f2d84-17fd0"
+226 verbose lastModified Wed, 19 Jul 2017 09:59:32 GMT
+227 http request GET https://registry.npmjs.org/elliptic
+228 verbose request uri https://registry.npmjs.org/bn.js
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 1:47:29 AM
+231 verbose etag W/"5949b915-1e2e1"
+232 verbose lastModified Wed, 21 Jun 2017 00:08:53 GMT
+233 http request GET https://registry.npmjs.org/bn.js
+234 verbose request uri https://registry.npmjs.org/secp256k1
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 1:47:29 AM
+237 verbose etag W/"59387154-15922"
+238 verbose lastModified Wed, 07 Jun 2017 21:34:12 GMT
+239 http request GET https://registry.npmjs.org/secp256k1
+240 http 304 https://registry.npmjs.org/bn.js
+241 verbose headers { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+241 verbose headers   via: '1.1 varnish',
+241 verbose headers   'cache-control': 'max-age=300',
+241 verbose headers   etag: 'W/"5949b915-1e2e1"',
+241 verbose headers   age: '123',
+241 verbose headers   connection: 'keep-alive',
+241 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+241 verbose headers   'x-cache': 'HIT',
+241 verbose headers   'x-cache-hits': '1',
+241 verbose headers   'x-timer': 'S1501350450.650382,VS0,VE1',
+241 verbose headers   vary: 'Accept-Encoding, Accept' }
+242 silly get cb [ 304,
+242 silly get   { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+242 silly get     via: '1.1 varnish',
+242 silly get     'cache-control': 'max-age=300',
+242 silly get     etag: 'W/"5949b915-1e2e1"',
+242 silly get     age: '123',
+242 silly get     connection: 'keep-alive',
+242 silly get     'x-served-by': 'cache-itm7422-ITM',
+242 silly get     'x-cache': 'HIT',
+242 silly get     'x-cache-hits': '1',
+242 silly get     'x-timer': 'S1501350450.650382,VS0,VE1',
+242 silly get     vary: 'Accept-Encoding, Accept' } ]
+243 verbose etag https://registry.npmjs.org/bn.js from cache
+244 verbose get saving bn.js to /Users/admin/.npm/registry.npmjs.org/bn.js/.cache.json
+245 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+246 silly resolveWithNewModule bn.js@2.2.0 checking installable status
+247 silly cache add args [ 'bn.js@^2.0.5', null ]
+248 verbose cache add spec bn.js@^2.0.5
+249 silly cache add parsed spec Result {
+249 silly cache add   raw: 'bn.js@^2.0.5',
+249 silly cache add   scope: null,
+249 silly cache add   escapedName: 'bn.js',
+249 silly cache add   name: 'bn.js',
+249 silly cache add   rawSpec: '^2.0.5',
+249 silly cache add   spec: '>=2.0.5 <3.0.0',
+249 silly cache add   type: 'range' }
+250 silly addNamed bn.js@>=2.0.5 <3.0.0
+251 verbose addNamed ">=2.0.5 <3.0.0" is a valid semver range for bn.js
+252 silly addNameRange { name: 'bn.js', range: '>=2.0.5 <3.0.0', hasData: false }
+253 silly mapToRegistry name bn.js
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'bn.js',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   escapedName: 'bn.js',
+256 silly mapToRegistry   name: 'bn.js',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri https://registry.npmjs.org/bn.js
+258 verbose addNameRange registry:https://registry.npmjs.org/bn.js not in flight; fetching
+259 http 304 https://registry.npmjs.org/ethereumjs-util
+260 verbose headers { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+260 verbose headers   via: '1.1 varnish',
+260 verbose headers   'cache-control': 'max-age=300',
+260 verbose headers   etag: 'W/"592f2c3e-186e5"',
+260 verbose headers   age: '0',
+260 verbose headers   connection: 'keep-alive',
+260 verbose headers   'x-served-by': 'cache-itm7425-ITM',
+260 verbose headers   'x-cache': 'HIT',
+260 verbose headers   'x-cache-hits': '1',
+260 verbose headers   'x-timer': 'S1501350450.521872,VS0,VE132',
+260 verbose headers   vary: 'Accept-Encoding, Accept' }
+261 silly get cb [ 304,
+261 silly get   { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+261 silly get     via: '1.1 varnish',
+261 silly get     'cache-control': 'max-age=300',
+261 silly get     etag: 'W/"592f2c3e-186e5"',
+261 silly get     age: '0',
+261 silly get     connection: 'keep-alive',
+261 silly get     'x-served-by': 'cache-itm7425-ITM',
+261 silly get     'x-cache': 'HIT',
+261 silly get     'x-cache-hits': '1',
+261 silly get     'x-timer': 'S1501350450.521872,VS0,VE132',
+261 silly get     vary: 'Accept-Encoding, Accept' } ]
+262 verbose etag https://registry.npmjs.org/ethereumjs-util from cache
+263 verbose get saving ethereumjs-util to /Users/admin/.npm/registry.npmjs.org/ethereumjs-util/.cache.json
+264 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+265 http 304 https://registry.npmjs.org/elliptic
+266 verbose headers { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+266 verbose headers   via: '1.1 varnish',
+266 verbose headers   'cache-control': 'max-age=300',
+266 verbose headers   etag: 'W/"596f2d84-17fd0"',
+266 verbose headers   age: '123',
+266 verbose headers   connection: 'keep-alive',
+266 verbose headers   'x-served-by': 'cache-itm7425-ITM',
+266 verbose headers   'x-cache': 'HIT',
+266 verbose headers   'x-cache-hits': '21',
+266 verbose headers   'x-timer': 'S1501350450.666248,VS0,VE0',
+266 verbose headers   vary: 'Accept-Encoding, Accept' }
+267 silly get cb [ 304,
+267 silly get   { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+267 silly get     via: '1.1 varnish',
+267 silly get     'cache-control': 'max-age=300',
+267 silly get     etag: 'W/"596f2d84-17fd0"',
+267 silly get     age: '123',
+267 silly get     connection: 'keep-alive',
+267 silly get     'x-served-by': 'cache-itm7425-ITM',
+267 silly get     'x-cache': 'HIT',
+267 silly get     'x-cache-hits': '21',
+267 silly get     'x-timer': 'S1501350450.666248,VS0,VE0',
+267 silly get     vary: 'Accept-Encoding, Accept' } ]
+268 verbose etag https://registry.npmjs.org/elliptic from cache
+269 verbose get saving elliptic to /Users/admin/.npm/registry.npmjs.org/elliptic/.cache.json
+270 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+271 verbose get https://registry.npmjs.org/bn.js not expired, no request
+272 silly addNameRange number 2 { name: 'bn.js', range: '>=2.0.5 <3.0.0', hasData: true }
+273 silly addNameRange versions [ 'bn.js',
+273 silly addNameRange   [ '0.1.0',
+273 silly addNameRange     '0.1.1',
+273 silly addNameRange     '0.1.2',
+273 silly addNameRange     '0.1.3',
+273 silly addNameRange     '0.1.4',
+273 silly addNameRange     '0.1.5',
+273 silly addNameRange     '0.1.6',
+273 silly addNameRange     '0.1.7',
+273 silly addNameRange     '0.2.0',
+273 silly addNameRange     '0.2.1',
+273 silly addNameRange     '0.2.2',
+273 silly addNameRange     '0.3.0',
+273 silly addNameRange     '0.3.1',
+273 silly addNameRange     '0.4.0',
+273 silly addNameRange     '0.4.1',
+273 silly addNameRange     '0.4.2',
+273 silly addNameRange     '0.4.3',
+273 silly addNameRange     '0.4.4',
+273 silly addNameRange     '0.5.0',
+273 silly addNameRange     '0.5.1',
+273 silly addNameRange     '0.5.2',
+273 silly addNameRange     '0.5.3',
+273 silly addNameRange     '0.5.4',
+273 silly addNameRange     '0.6.0',
+273 silly addNameRange     '0.7.0',
+273 silly addNameRange     '0.7.1',
+273 silly addNameRange     '0.8.0',
+273 silly addNameRange     '0.8.1',
+273 silly addNameRange     '0.9.0',
+273 silly addNameRange     '0.10.0',
+273 silly addNameRange     '0.10.1',
+273 silly addNameRange     '0.11.0',
+273 silly addNameRange     '0.11.1',
+273 silly addNameRange     '0.11.2',
+273 silly addNameRange     '0.11.3',
+273 silly addNameRange     '0.11.4',
+273 silly addNameRange     '0.11.5',
+273 silly addNameRange     '0.11.6',
+273 silly addNameRange     '0.11.7',
+273 silly addNameRange     '0.12.0',
+273 silly addNameRange     '0.13.0',
+273 silly addNameRange     '0.13.1',
+273 silly addNameRange     '0.13.2',
+273 silly addNameRange     '0.13.3',
+273 silly addNameRange     '0.14.0',
+273 silly addNameRange     '0.14.1',
+273 silly addNameRange     '0.14.2',
+273 silly addNameRange     '0.15.0',
+273 silly addNameRange     '0.15.1',
+273 silly addNameRange     '0.15.2',
+273 silly addNameRange     '0.16.0',
+273 silly addNameRange     '0.16.1',
+273 silly addNameRange     '1.0.0',
+273 silly addNameRange     '1.1.0',
+273 silly addNameRange     '1.1.1',
+273 silly addNameRange     '1.2.1',
+273 silly addNameRange     '1.2.2',
+273 silly addNameRange     '1.2.3',
+273 silly addNameRange     '1.2.4',
+273 silly addNameRange     '1.3.0',
+273 silly addNameRange     '2.0.0',
+273 silly addNameRange     '2.0.1',
+273 silly addNameRange     '2.0.2',
+273 silly addNameRange     '2.0.3',
+273 silly addNameRange     '2.0.4',
+273 silly addNameRange     '2.0.5',
+273 silly addNameRange     '2.1.0',
+273 silly addNameRange     '2.2.0',
+273 silly addNameRange     '3.0.0',
+273 silly addNameRange     '3.0.1',
+273 silly addNameRange     '3.1.0',
+273 silly addNameRange     '3.1.1',
+273 silly addNameRange     '3.1.2',
+273 silly addNameRange     '3.2.0',
+273 silly addNameRange     '3.3.0',
+273 silly addNameRange     '4.0.0',
+273 silly addNameRange     '4.1.0',
+273 silly addNameRange     '4.1.1',
+273 silly addNameRange     '4.2.0',
+273 silly addNameRange     '4.3.0',
+273 silly addNameRange     '4.4.0',
+273 silly addNameRange     '4.5.0',
+273 silly addNameRange     '4.5.1',
+273 silly addNameRange     '4.5.2',
+273 silly addNameRange     '4.6.0',
+273 silly addNameRange     '4.6.1',
+273 silly addNameRange     '4.6.2',
+273 silly addNameRange     '4.6.3',
+273 silly addNameRange     '4.6.4',
+273 silly addNameRange     '4.6.5',
+273 silly addNameRange     '4.6.6',
+273 silly addNameRange     '4.7.0',
+273 silly addNameRange     '4.8.0',
+273 silly addNameRange     '4.8.1',
+273 silly addNameRange     '4.9.0',
+273 silly addNameRange     '4.10.0',
+273 silly addNameRange     '4.10.1',
+273 silly addNameRange     '4.10.2',
+273 silly addNameRange     '4.10.3',
+273 silly addNameRange     '4.10.4',
+273 silly addNameRange     ... 9 more items ] ]
+274 silly addNamed bn.js@2.2.0
+275 verbose addNamed "2.2.0" is a plain semver version for bn.js
+276 silly cache afterAdd bn.js@2.2.0
+277 verbose afterAdd /Users/admin/.npm/bn.js/2.2.0/package/package.json not in flight; writing
+278 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+279 silly resolveWithNewModule elliptic@3.1.0 checking installable status
+280 silly cache add args [ 'elliptic@^3.1.0', null ]
+281 verbose cache add spec elliptic@^3.1.0
+282 silly cache add parsed spec Result {
+282 silly cache add   raw: 'elliptic@^3.1.0',
+282 silly cache add   scope: null,
+282 silly cache add   escapedName: 'elliptic',
+282 silly cache add   name: 'elliptic',
+282 silly cache add   rawSpec: '^3.1.0',
+282 silly cache add   spec: '>=3.1.0 <4.0.0',
+282 silly cache add   type: 'range' }
+283 silly addNamed elliptic@>=3.1.0 <4.0.0
+284 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for elliptic
+285 silly addNameRange { name: 'elliptic', range: '>=3.1.0 <4.0.0', hasData: false }
+286 silly mapToRegistry name elliptic
+287 silly mapToRegistry using default registry
+288 silly mapToRegistry registry https://registry.npmjs.org/
+289 silly mapToRegistry data Result {
+289 silly mapToRegistry   raw: 'elliptic',
+289 silly mapToRegistry   scope: null,
+289 silly mapToRegistry   escapedName: 'elliptic',
+289 silly mapToRegistry   name: 'elliptic',
+289 silly mapToRegistry   rawSpec: '',
+289 silly mapToRegistry   spec: 'latest',
+289 silly mapToRegistry   type: 'tag' }
+290 silly mapToRegistry uri https://registry.npmjs.org/elliptic
+291 verbose addNameRange registry:https://registry.npmjs.org/elliptic not in flight; fetching
+292 silly resolveWithNewModule ethereumjs-util@1.5.1 checking installable status
+293 silly cache add args [ 'ethereumjs-util@^1.2.0', null ]
+294 verbose cache add spec ethereumjs-util@^1.2.0
+295 silly cache add parsed spec Result {
+295 silly cache add   raw: 'ethereumjs-util@^1.2.0',
+295 silly cache add   scope: null,
+295 silly cache add   escapedName: 'ethereumjs-util',
+295 silly cache add   name: 'ethereumjs-util',
+295 silly cache add   rawSpec: '^1.2.0',
+295 silly cache add   spec: '>=1.2.0 <2.0.0',
+295 silly cache add   type: 'range' }
+296 silly addNamed ethereumjs-util@>=1.2.0 <2.0.0
+297 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for ethereumjs-util
+298 silly addNameRange { name: 'ethereumjs-util',
+298 silly addNameRange   range: '>=1.2.0 <2.0.0',
+298 silly addNameRange   hasData: false }
+299 silly mapToRegistry name ethereumjs-util
+300 silly mapToRegistry using default registry
+301 silly mapToRegistry registry https://registry.npmjs.org/
+302 silly mapToRegistry data Result {
+302 silly mapToRegistry   raw: 'ethereumjs-util',
+302 silly mapToRegistry   scope: null,
+302 silly mapToRegistry   escapedName: 'ethereumjs-util',
+302 silly mapToRegistry   name: 'ethereumjs-util',
+302 silly mapToRegistry   rawSpec: '',
+302 silly mapToRegistry   spec: 'latest',
+302 silly mapToRegistry   type: 'tag' }
+303 silly mapToRegistry uri https://registry.npmjs.org/ethereumjs-util
+304 verbose addNameRange registry:https://registry.npmjs.org/ethereumjs-util not in flight; fetching
+305 verbose get https://registry.npmjs.org/elliptic not expired, no request
+306 silly addNameRange number 2 { name: 'elliptic', range: '>=3.1.0 <4.0.0', hasData: true }
+307 silly addNameRange versions [ 'elliptic',
+307 silly addNameRange   [ '0.1.0',
+307 silly addNameRange     '0.2.0',
+307 silly addNameRange     '0.3.0',
+307 silly addNameRange     '0.4.0',
+307 silly addNameRange     '0.5.0',
+307 silly addNameRange     '0.6.0',
+307 silly addNameRange     '0.6.1',
+307 silly addNameRange     '0.7.0',
+307 silly addNameRange     '0.8.0',
+307 silly addNameRange     '0.9.0',
+307 silly addNameRange     '0.9.1',
+307 silly addNameRange     '0.9.2',
+307 silly addNameRange     '0.10.0',
+307 silly addNameRange     '0.10.1',
+307 silly addNameRange     '0.10.2',
+307 silly addNameRange     '0.11.0',
+307 silly addNameRange     '0.11.1',
+307 silly addNameRange     '0.12.0',
+307 silly addNameRange     '0.13.1',
+307 silly addNameRange     '0.13.2',
+307 silly addNameRange     '0.14.0',
+307 silly addNameRange     '0.14.1',
+307 silly addNameRange     '0.14.2',
+307 silly addNameRange     '0.15.0',
+307 silly addNameRange     '0.15.1',
+307 silly addNameRange     '0.15.2',
+307 silly addNameRange     '0.15.3',
+307 silly addNameRange     '0.15.4',
+307 silly addNameRange     '0.15.5',
+307 silly addNameRange     '0.15.6',
+307 silly addNameRange     '0.15.7',
+307 silly addNameRange     '0.15.8',
+307 silly addNameRange     '0.15.9',
+307 silly addNameRange     '0.15.10',
+307 silly addNameRange     '0.15.11',
+307 silly addNameRange     '0.15.12',
+307 silly addNameRange     '0.15.13',
+307 silly addNameRange     '0.15.14',
+307 silly addNameRange     '0.15.15',
+307 silly addNameRange     '0.15.17',
+307 silly addNameRange     '0.16.0',
+307 silly addNameRange     '1.0.0',
+307 silly addNameRange     '1.0.1',
+307 silly addNameRange     '2.0.0',
+307 silly addNameRange     '2.0.1',
+307 silly addNameRange     '2.0.2',
+307 silly addNameRange     '3.0.1',
+307 silly addNameRange     '3.0.2',
+307 silly addNameRange     '3.0.3',
+307 silly addNameRange     '3.0.4',
+307 silly addNameRange     '3.1.0',
+307 silly addNameRange     '4.0.0',
+307 silly addNameRange     '4.1.0',
+307 silly addNameRange     '5.0.0',
+307 silly addNameRange     '5.1.0',
+307 silly addNameRange     '5.2.0',
+307 silly addNameRange     '5.2.1',
+307 silly addNameRange     '6.0.0',
+307 silly addNameRange     '6.0.1',
+307 silly addNameRange     '6.0.2',
+307 silly addNameRange     '6.1.0',
+307 silly addNameRange     '6.2.0',
+307 silly addNameRange     '6.2.1',
+307 silly addNameRange     '6.2.2',
+307 silly addNameRange     '6.2.3',
+307 silly addNameRange     '6.2.4',
+307 silly addNameRange     '6.2.5',
+307 silly addNameRange     '6.2.6',
+307 silly addNameRange     '6.2.7',
+307 silly addNameRange     '6.2.8',
+307 silly addNameRange     '6.3.0',
+307 silly addNameRange     '6.3.1',
+307 silly addNameRange     '6.3.2',
+307 silly addNameRange     '6.3.3',
+307 silly addNameRange     '6.4.0' ] ]
+308 silly addNamed elliptic@3.1.0
+309 verbose addNamed "3.1.0" is a plain semver version for elliptic
+310 verbose afterAdd /Users/admin/.npm/bn.js/2.2.0/package/package.json written
+311 verbose get https://registry.npmjs.org/ethereumjs-util not expired, no request
+312 silly addNameRange number 2 { name: 'ethereumjs-util',
+312 silly addNameRange   range: '>=1.2.0 <2.0.0',
+312 silly addNameRange   hasData: true }
+313 silly addNameRange versions [ 'ethereumjs-util',
+313 silly addNameRange   [ '0.0.2',
+313 silly addNameRange     '0.0.3',
+313 silly addNameRange     '0.0.4',
+313 silly addNameRange     '0.0.5',
+313 silly addNameRange     '0.0.6',
+313 silly addNameRange     '0.0.7',
+313 silly addNameRange     '0.0.8',
+313 silly addNameRange     '0.0.9',
+313 silly addNameRange     '0.0.10',
+313 silly addNameRange     '0.1.0',
+313 silly addNameRange     '1.0.0',
+313 silly addNameRange     '1.0.1',
+313 silly addNameRange     '1.0.2',
+313 silly addNameRange     '1.0.3',
+313 silly addNameRange     '1.1.0',
+313 silly addNameRange     '1.2.0',
+313 silly addNameRange     '1.3.0',
+313 silly addNameRange     '1.3.1',
+313 silly addNameRange     '1.3.2',
+313 silly addNameRange     '1.3.3',
+313 silly addNameRange     '1.3.4',
+313 silly addNameRange     '1.3.5',
+313 silly addNameRange     '1.3.6',
+313 silly addNameRange     '1.3.7',
+313 silly addNameRange     '1.3.8',
+313 silly addNameRange     '1.4.0',
+313 silly addNameRange     '1.5.0',
+313 silly addNameRange     '1.5.1',
+313 silly addNameRange     '2.0.0',
+313 silly addNameRange     '2.0.1',
+313 silly addNameRange     '2.0.2',
+313 silly addNameRange     '2.0.3',
+313 silly addNameRange     '2.0.4',
+313 silly addNameRange     '2.1.0',
+313 silly addNameRange     '2.2.0',
+313 silly addNameRange     '2.3.0',
+313 silly addNameRange     '2.3.1',
+313 silly addNameRange     '2.3.2',
+313 silly addNameRange     '2.4.0',
+313 silly addNameRange     '2.5.0',
+313 silly addNameRange     '2.6.0',
+313 silly addNameRange     '3.0.0',
+313 silly addNameRange     '4.0.0',
+313 silly addNameRange     '4.0.1',
+313 silly addNameRange     '4.0.2',
+313 silly addNameRange     '4.1.0',
+313 silly addNameRange     '4.2.0',
+313 silly addNameRange     '4.3.0',
+313 silly addNameRange     '4.3.1',
+313 silly addNameRange     '4.4.0',
+313 silly addNameRange     '4.4.1',
+313 silly addNameRange     '4.5.0',
+313 silly addNameRange     '5.0.0',
+313 silly addNameRange     '5.0.1',
+313 silly addNameRange     '5.1.0',
+313 silly addNameRange     '5.1.1',
+313 silly addNameRange     '5.1.2' ] ]
+314 silly addNamed ethereumjs-util@1.5.1
+315 verbose addNamed "1.5.1" is a plain semver version for ethereumjs-util
+316 silly cache afterAdd elliptic@3.1.0
+317 verbose afterAdd /Users/admin/.npm/elliptic/3.1.0/package/package.json not in flight; writing
+318 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+319 silly cache afterAdd ethereumjs-util@1.5.1
+320 verbose afterAdd /Users/admin/.npm/ethereumjs-util/1.5.1/package/package.json not in flight; writing
+321 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+322 verbose afterAdd /Users/admin/.npm/elliptic/3.1.0/package/package.json written
+323 verbose afterAdd /Users/admin/.npm/ethereumjs-util/1.5.1/package/package.json written
+324 http 304 https://registry.npmjs.org/rlp
+325 verbose headers { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+325 verbose headers   via: '1.1 varnish',
+325 verbose headers   'cache-control': 'max-age=300',
+325 verbose headers   etag: 'W/"5601fee9-6d7a"',
+325 verbose headers   age: '0',
+325 verbose headers   connection: 'keep-alive',
+325 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+325 verbose headers   'x-cache': 'HIT',
+325 verbose headers   'x-cache-hits': '1',
+325 verbose headers   'x-timer': 'S1501350450.521791,VS0,VE567',
+325 verbose headers   vary: 'Accept-Encoding, Accept' }
+326 silly get cb [ 304,
+326 silly get   { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+326 silly get     via: '1.1 varnish',
+326 silly get     'cache-control': 'max-age=300',
+326 silly get     etag: 'W/"5601fee9-6d7a"',
+326 silly get     age: '0',
+326 silly get     connection: 'keep-alive',
+326 silly get     'x-served-by': 'cache-itm7422-ITM',
+326 silly get     'x-cache': 'HIT',
+326 silly get     'x-cache-hits': '1',
+326 silly get     'x-timer': 'S1501350450.521791,VS0,VE567',
+326 silly get     vary: 'Accept-Encoding, Accept' } ]
+327 verbose etag https://registry.npmjs.org/rlp from cache
+328 verbose get saving rlp to /Users/admin/.npm/registry.npmjs.org/rlp/.cache.json
+329 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+330 silly resolveWithNewModule rlp@1.1.2 checking installable status
+331 silly cache add args [ 'rlp@^1.0.0', null ]
+332 verbose cache add spec rlp@^1.0.0
+333 silly cache add parsed spec Result {
+333 silly cache add   raw: 'rlp@^1.0.0',
+333 silly cache add   scope: null,
+333 silly cache add   escapedName: 'rlp',
+333 silly cache add   name: 'rlp',
+333 silly cache add   rawSpec: '^1.0.0',
+333 silly cache add   spec: '>=1.0.0 <2.0.0',
+333 silly cache add   type: 'range' }
+334 silly addNamed rlp@>=1.0.0 <2.0.0
+335 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for rlp
+336 silly addNameRange { name: 'rlp', range: '>=1.0.0 <2.0.0', hasData: false }
+337 silly mapToRegistry name rlp
+338 silly mapToRegistry using default registry
+339 silly mapToRegistry registry https://registry.npmjs.org/
+340 silly mapToRegistry data Result {
+340 silly mapToRegistry   raw: 'rlp',
+340 silly mapToRegistry   scope: null,
+340 silly mapToRegistry   escapedName: 'rlp',
+340 silly mapToRegistry   name: 'rlp',
+340 silly mapToRegistry   rawSpec: '',
+340 silly mapToRegistry   spec: 'latest',
+340 silly mapToRegistry   type: 'tag' }
+341 silly mapToRegistry uri https://registry.npmjs.org/rlp
+342 verbose addNameRange registry:https://registry.npmjs.org/rlp not in flight; fetching
+343 verbose get https://registry.npmjs.org/rlp not expired, no request
+344 silly addNameRange number 2 { name: 'rlp', range: '>=1.0.0 <2.0.0', hasData: true }
+345 silly addNameRange versions [ 'rlp',
+345 silly addNameRange   [ '0.0.0',
+345 silly addNameRange     '0.0.1',
+345 silly addNameRange     '0.0.2',
+345 silly addNameRange     '0.0.3',
+345 silly addNameRange     '0.0.4',
+345 silly addNameRange     '0.0.5',
+345 silly addNameRange     '0.0.6',
+345 silly addNameRange     '0.0.7',
+345 silly addNameRange     '0.0.8',
+345 silly addNameRange     '0.0.9',
+345 silly addNameRange     '0.0.10',
+345 silly addNameRange     '0.0.11',
+345 silly addNameRange     '0.0.12',
+345 silly addNameRange     '0.0.13',
+345 silly addNameRange     '0.0.14',
+345 silly addNameRange     '1.0.0',
+345 silly addNameRange     '1.0.1',
+345 silly addNameRange     '1.1.0',
+345 silly addNameRange     '1.1.1',
+345 silly addNameRange     '1.1.2',
+345 silly addNameRange     '2.0.0' ] ]
+346 silly addNamed rlp@1.1.2
+347 verbose addNamed "1.1.2" is a plain semver version for rlp
+348 silly cache afterAdd rlp@1.1.2
+349 verbose afterAdd /Users/admin/.npm/rlp/1.1.2/package/package.json not in flight; writing
+350 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+351 verbose afterAdd /Users/admin/.npm/rlp/1.1.2/package/package.json written
+352 http 304 https://registry.npmjs.org/secp256k1
+353 verbose headers { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+353 verbose headers   via: '1.1 varnish',
+353 verbose headers   'cache-control': 'max-age=300',
+353 verbose headers   etag: 'W/"59387154-15922"',
+353 verbose headers   age: '0',
+353 verbose headers   connection: 'keep-alive',
+353 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+353 verbose headers   'x-cache': 'HIT',
+353 verbose headers   'x-cache-hits': '1',
+353 verbose headers   'x-timer': 'S1501350450.659569,VS0,VE564',
+353 verbose headers   vary: 'Accept-Encoding, Accept' }
+354 silly get cb [ 304,
+354 silly get   { date: 'Sat, 29 Jul 2017 17:47:29 GMT',
+354 silly get     via: '1.1 varnish',
+354 silly get     'cache-control': 'max-age=300',
+354 silly get     etag: 'W/"59387154-15922"',
+354 silly get     age: '0',
+354 silly get     connection: 'keep-alive',
+354 silly get     'x-served-by': 'cache-itm7420-ITM',
+354 silly get     'x-cache': 'HIT',
+354 silly get     'x-cache-hits': '1',
+354 silly get     'x-timer': 'S1501350450.659569,VS0,VE564',
+354 silly get     vary: 'Accept-Encoding, Accept' } ]
+355 verbose etag https://registry.npmjs.org/secp256k1 from cache
+356 verbose get saving secp256k1 to /Users/admin/.npm/registry.npmjs.org/secp256k1/.cache.json
+357 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+358 silly resolveWithNewModule secp256k1@0.0.15 checking installable status
+359 silly cache add args [ 'secp256k1@0.0.15', null ]
+360 verbose cache add spec secp256k1@0.0.15
+361 silly cache add parsed spec Result {
+361 silly cache add   raw: 'secp256k1@0.0.15',
+361 silly cache add   scope: null,
+361 silly cache add   escapedName: 'secp256k1',
+361 silly cache add   name: 'secp256k1',
+361 silly cache add   rawSpec: '0.0.15',
+361 silly cache add   spec: '0.0.15',
+361 silly cache add   type: 'version' }
+362 silly addNamed secp256k1@0.0.15
+363 verbose addNamed "0.0.15" is a plain semver version for secp256k1
+364 silly mapToRegistry name secp256k1
+365 silly mapToRegistry using default registry
+366 silly mapToRegistry registry https://registry.npmjs.org/
+367 silly mapToRegistry data Result {
+367 silly mapToRegistry   raw: 'secp256k1',
+367 silly mapToRegistry   scope: null,
+367 silly mapToRegistry   escapedName: 'secp256k1',
+367 silly mapToRegistry   name: 'secp256k1',
+367 silly mapToRegistry   rawSpec: '',
+367 silly mapToRegistry   spec: 'latest',
+367 silly mapToRegistry   type: 'tag' }
+368 silly mapToRegistry uri https://registry.npmjs.org/secp256k1
+369 verbose addNameVersion registry:https://registry.npmjs.org/secp256k1 not in flight; fetching
+370 verbose get https://registry.npmjs.org/secp256k1 not expired, no request
+371 silly cache afterAdd secp256k1@0.0.15
+372 verbose afterAdd /Users/admin/.npm/secp256k1/0.0.15/package/package.json not in flight; writing
+373 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+374 verbose afterAdd /Users/admin/.npm/secp256k1/0.0.15/package/package.json written
+375 silly fetchNamedPackageData bn.js
+376 silly mapToRegistry name bn.js
+377 silly mapToRegistry using default registry
+378 silly mapToRegistry registry https://registry.npmjs.org/
+379 silly mapToRegistry data Result {
+379 silly mapToRegistry   raw: 'bn.js',
+379 silly mapToRegistry   scope: null,
+379 silly mapToRegistry   escapedName: 'bn.js',
+379 silly mapToRegistry   name: 'bn.js',
+379 silly mapToRegistry   rawSpec: '',
+379 silly mapToRegistry   spec: 'latest',
+379 silly mapToRegistry   type: 'tag' }
+380 silly mapToRegistry uri https://registry.npmjs.org/bn.js
+381 silly resolveWithNewModule bn.js@3.3.0 checking installable status
+382 silly cache add args [ 'bn.js@^3.1.2', null ]
+383 verbose cache add spec bn.js@^3.1.2
+384 silly fetchNamedPackageData browserify-sha3
+385 silly mapToRegistry name browserify-sha3
+386 silly mapToRegistry using default registry
+387 silly mapToRegistry registry https://registry.npmjs.org/
+388 silly mapToRegistry data Result {
+388 silly mapToRegistry   raw: 'browserify-sha3',
+388 silly mapToRegistry   scope: null,
+388 silly mapToRegistry   escapedName: 'browserify-sha3',
+388 silly mapToRegistry   name: 'browserify-sha3',
+388 silly mapToRegistry   rawSpec: '',
+388 silly mapToRegistry   spec: 'latest',
+388 silly mapToRegistry   type: 'tag' }
+389 silly mapToRegistry uri https://registry.npmjs.org/browserify-sha3
+390 silly fetchNamedPackageData elliptic
+391 silly mapToRegistry name elliptic
+392 silly mapToRegistry using default registry
+393 silly mapToRegistry registry https://registry.npmjs.org/
+394 silly mapToRegistry data Result {
+394 silly mapToRegistry   raw: 'elliptic',
+394 silly mapToRegistry   scope: null,
+394 silly mapToRegistry   escapedName: 'elliptic',
+394 silly mapToRegistry   name: 'elliptic',
+394 silly mapToRegistry   rawSpec: '',
+394 silly mapToRegistry   spec: 'latest',
+394 silly mapToRegistry   type: 'tag' }
+395 silly mapToRegistry uri https://registry.npmjs.org/elliptic
+396 silly resolveWithNewModule elliptic@5.2.1 checking installable status
+397 silly cache add args [ 'elliptic@^5.0.0', null ]
+398 verbose cache add spec elliptic@^5.0.0
+399 silly cache add parsed spec Result {
+399 silly cache add   raw: 'bn.js@^3.1.2',
+399 silly cache add   scope: null,
+399 silly cache add   escapedName: 'bn.js',
+399 silly cache add   name: 'bn.js',
+399 silly cache add   rawSpec: '^3.1.2',
+399 silly cache add   spec: '>=3.1.2 <4.0.0',
+399 silly cache add   type: 'range' }
+400 silly addNamed bn.js@>=3.1.2 <4.0.0
+401 verbose addNamed ">=3.1.2 <4.0.0" is a valid semver range for bn.js
+402 silly addNameRange { name: 'bn.js', range: '>=3.1.2 <4.0.0', hasData: false }
+403 silly mapToRegistry name bn.js
+404 silly mapToRegistry using default registry
+405 silly mapToRegistry registry https://registry.npmjs.org/
+406 silly mapToRegistry data Result {
+406 silly mapToRegistry   raw: 'bn.js',
+406 silly mapToRegistry   scope: null,
+406 silly mapToRegistry   escapedName: 'bn.js',
+406 silly mapToRegistry   name: 'bn.js',
+406 silly mapToRegistry   rawSpec: '',
+406 silly mapToRegistry   spec: 'latest',
+406 silly mapToRegistry   type: 'tag' }
+407 silly mapToRegistry uri https://registry.npmjs.org/bn.js
+408 verbose addNameRange registry:https://registry.npmjs.org/bn.js not in flight; fetching
+409 silly cache add parsed spec Result {
+409 silly cache add   raw: 'elliptic@^5.0.0',
+409 silly cache add   scope: null,
+409 silly cache add   escapedName: 'elliptic',
+409 silly cache add   name: 'elliptic',
+409 silly cache add   rawSpec: '^5.0.0',
+409 silly cache add   spec: '>=5.0.0 <6.0.0',
+409 silly cache add   type: 'range' }
+410 silly addNamed elliptic@>=5.0.0 <6.0.0
+411 verbose addNamed ">=5.0.0 <6.0.0" is a valid semver range for elliptic
+412 silly addNameRange { name: 'elliptic', range: '>=5.0.0 <6.0.0', hasData: false }
+413 silly mapToRegistry name elliptic
+414 silly mapToRegistry using default registry
+415 silly mapToRegistry registry https://registry.npmjs.org/
+416 silly mapToRegistry data Result {
+416 silly mapToRegistry   raw: 'elliptic',
+416 silly mapToRegistry   scope: null,
+416 silly mapToRegistry   escapedName: 'elliptic',
+416 silly mapToRegistry   name: 'elliptic',
+416 silly mapToRegistry   rawSpec: '',
+416 silly mapToRegistry   spec: 'latest',
+416 silly mapToRegistry   type: 'tag' }
+417 silly mapToRegistry uri https://registry.npmjs.org/elliptic
+418 verbose addNameRange registry:https://registry.npmjs.org/elliptic not in flight; fetching
+419 verbose request uri https://registry.npmjs.org/browserify-sha3
+420 verbose request no auth needed
+421 info attempt registry request try #1 at 1:47:30 AM
+422 verbose etag W/"597a573b-1632"
+423 verbose lastModified Thu, 27 Jul 2017 21:12:27 GMT
+424 http request GET https://registry.npmjs.org/browserify-sha3
+425 verbose get https://registry.npmjs.org/elliptic not expired, no request
+426 silly addNameRange number 2 { name: 'elliptic', range: '>=5.0.0 <6.0.0', hasData: true }
+427 silly addNameRange versions [ 'elliptic',
+427 silly addNameRange   [ '0.1.0',
+427 silly addNameRange     '0.2.0',
+427 silly addNameRange     '0.3.0',
+427 silly addNameRange     '0.4.0',
+427 silly addNameRange     '0.5.0',
+427 silly addNameRange     '0.6.0',
+427 silly addNameRange     '0.6.1',
+427 silly addNameRange     '0.7.0',
+427 silly addNameRange     '0.8.0',
+427 silly addNameRange     '0.9.0',
+427 silly addNameRange     '0.9.1',
+427 silly addNameRange     '0.9.2',
+427 silly addNameRange     '0.10.0',
+427 silly addNameRange     '0.10.1',
+427 silly addNameRange     '0.10.2',
+427 silly addNameRange     '0.11.0',
+427 silly addNameRange     '0.11.1',
+427 silly addNameRange     '0.12.0',
+427 silly addNameRange     '0.13.1',
+427 silly addNameRange     '0.13.2',
+427 silly addNameRange     '0.14.0',
+427 silly addNameRange     '0.14.1',
+427 silly addNameRange     '0.14.2',
+427 silly addNameRange     '0.15.0',
+427 silly addNameRange     '0.15.1',
+427 silly addNameRange     '0.15.2',
+427 silly addNameRange     '0.15.3',
+427 silly addNameRange     '0.15.4',
+427 silly addNameRange     '0.15.5',
+427 silly addNameRange     '0.15.6',
+427 silly addNameRange     '0.15.7',
+427 silly addNameRange     '0.15.8',
+427 silly addNameRange     '0.15.9',
+427 silly addNameRange     '0.15.10',
+427 silly addNameRange     '0.15.11',
+427 silly addNameRange     '0.15.12',
+427 silly addNameRange     '0.15.13',
+427 silly addNameRange     '0.15.14',
+427 silly addNameRange     '0.15.15',
+427 silly addNameRange     '0.15.17',
+427 silly addNameRange     '0.16.0',
+427 silly addNameRange     '1.0.0',
+427 silly addNameRange     '1.0.1',
+427 silly addNameRange     '2.0.0',
+427 silly addNameRange     '2.0.1',
+427 silly addNameRange     '2.0.2',
+427 silly addNameRange     '3.0.1',
+427 silly addNameRange     '3.0.2',
+427 silly addNameRange     '3.0.3',
+427 silly addNameRange     '3.0.4',
+427 silly addNameRange     '3.1.0',
+427 silly addNameRange     '4.0.0',
+427 silly addNameRange     '4.1.0',
+427 silly addNameRange     '5.0.0',
+427 silly addNameRange     '5.1.0',
+427 silly addNameRange     '5.2.0',
+427 silly addNameRange     '5.2.1',
+427 silly addNameRange     '6.0.0',
+427 silly addNameRange     '6.0.1',
+427 silly addNameRange     '6.0.2',
+427 silly addNameRange     '6.1.0',
+427 silly addNameRange     '6.2.0',
+427 silly addNameRange     '6.2.1',
+427 silly addNameRange     '6.2.2',
+427 silly addNameRange     '6.2.3',
+427 silly addNameRange     '6.2.4',
+427 silly addNameRange     '6.2.5',
+427 silly addNameRange     '6.2.6',
+427 silly addNameRange     '6.2.7',
+427 silly addNameRange     '6.2.8',
+427 silly addNameRange     '6.3.0',
+427 silly addNameRange     '6.3.1',
+427 silly addNameRange     '6.3.2',
+427 silly addNameRange     '6.3.3',
+427 silly addNameRange     '6.4.0' ] ]
+428 silly addNamed elliptic@5.2.1
+429 verbose addNamed "5.2.1" is a plain semver version for elliptic
+430 verbose get https://registry.npmjs.org/bn.js not expired, no request
+431 silly addNameRange number 2 { name: 'bn.js', range: '>=3.1.2 <4.0.0', hasData: true }
+432 silly addNameRange versions [ 'bn.js',
+432 silly addNameRange   [ '0.1.0',
+432 silly addNameRange     '0.1.1',
+432 silly addNameRange     '0.1.2',
+432 silly addNameRange     '0.1.3',
+432 silly addNameRange     '0.1.4',
+432 silly addNameRange     '0.1.5',
+432 silly addNameRange     '0.1.6',
+432 silly addNameRange     '0.1.7',
+432 silly addNameRange     '0.2.0',
+432 silly addNameRange     '0.2.1',
+432 silly addNameRange     '0.2.2',
+432 silly addNameRange     '0.3.0',
+432 silly addNameRange     '0.3.1',
+432 silly addNameRange     '0.4.0',
+432 silly addNameRange     '0.4.1',
+432 silly addNameRange     '0.4.2',
+432 silly addNameRange     '0.4.3',
+432 silly addNameRange     '0.4.4',
+432 silly addNameRange     '0.5.0',
+432 silly addNameRange     '0.5.1',
+432 silly addNameRange     '0.5.2',
+432 silly addNameRange     '0.5.3',
+432 silly addNameRange     '0.5.4',
+432 silly addNameRange     '0.6.0',
+432 silly addNameRange     '0.7.0',
+432 silly addNameRange     '0.7.1',
+432 silly addNameRange     '0.8.0',
+432 silly addNameRange     '0.8.1',
+432 silly addNameRange     '0.9.0',
+432 silly addNameRange     '0.10.0',
+432 silly addNameRange     '0.10.1',
+432 silly addNameRange     '0.11.0',
+432 silly addNameRange     '0.11.1',
+432 silly addNameRange     '0.11.2',
+432 silly addNameRange     '0.11.3',
+432 silly addNameRange     '0.11.4',
+432 silly addNameRange     '0.11.5',
+432 silly addNameRange     '0.11.6',
+432 silly addNameRange     '0.11.7',
+432 silly addNameRange     '0.12.0',
+432 silly addNameRange     '0.13.0',
+432 silly addNameRange     '0.13.1',
+432 silly addNameRange     '0.13.2',
+432 silly addNameRange     '0.13.3',
+432 silly addNameRange     '0.14.0',
+432 silly addNameRange     '0.14.1',
+432 silly addNameRange     '0.14.2',
+432 silly addNameRange     '0.15.0',
+432 silly addNameRange     '0.15.1',
+432 silly addNameRange     '0.15.2',
+432 silly addNameRange     '0.16.0',
+432 silly addNameRange     '0.16.1',
+432 silly addNameRange     '1.0.0',
+432 silly addNameRange     '1.1.0',
+432 silly addNameRange     '1.1.1',
+432 silly addNameRange     '1.2.1',
+432 silly addNameRange     '1.2.2',
+432 silly addNameRange     '1.2.3',
+432 silly addNameRange     '1.2.4',
+432 silly addNameRange     '1.3.0',
+432 silly addNameRange     '2.0.0',
+432 silly addNameRange     '2.0.1',
+432 silly addNameRange     '2.0.2',
+432 silly addNameRange     '2.0.3',
+432 silly addNameRange     '2.0.4',
+432 silly addNameRange     '2.0.5',
+432 silly addNameRange     '2.1.0',
+432 silly addNameRange     '2.2.0',
+432 silly addNameRange     '3.0.0',
+432 silly addNameRange     '3.0.1',
+432 silly addNameRange     '3.1.0',
+432 silly addNameRange     '3.1.1',
+432 silly addNameRange     '3.1.2',
+432 silly addNameRange     '3.2.0',
+432 silly addNameRange     '3.3.0',
+432 silly addNameRange     '4.0.0',
+432 silly addNameRange     '4.1.0',
+432 silly addNameRange     '4.1.1',
+432 silly addNameRange     '4.2.0',
+432 silly addNameRange     '4.3.0',
+432 silly addNameRange     '4.4.0',
+432 silly addNameRange     '4.5.0',
+432 silly addNameRange     '4.5.1',
+432 silly addNameRange     '4.5.2',
+432 silly addNameRange     '4.6.0',
+432 silly addNameRange     '4.6.1',
+432 silly addNameRange     '4.6.2',
+432 silly addNameRange     '4.6.3',
+432 silly addNameRange     '4.6.4',
+432 silly addNameRange     '4.6.5',
+432 silly addNameRange     '4.6.6',
+432 silly addNameRange     '4.7.0',
+432 silly addNameRange     '4.8.0',
+432 silly addNameRange     '4.8.1',
+432 silly addNameRange     '4.9.0',
+432 silly addNameRange     '4.10.0',
+432 silly addNameRange     '4.10.1',
+432 silly addNameRange     '4.10.2',
+432 silly addNameRange     '4.10.3',
+432 silly addNameRange     '4.10.4',
+432 silly addNameRange     ... 9 more items ] ]
+433 silly addNamed bn.js@3.3.0
+434 verbose addNamed "3.3.0" is a plain semver version for bn.js
+435 silly cache afterAdd elliptic@5.2.1
+436 verbose afterAdd /Users/admin/.npm/elliptic/5.2.1/package/package.json not in flight; writing
+437 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+438 silly cache afterAdd bn.js@3.3.0
+439 verbose afterAdd /Users/admin/.npm/bn.js/3.3.0/package/package.json not in flight; writing
+440 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+441 verbose afterAdd /Users/admin/.npm/elliptic/5.2.1/package/package.json written
+442 verbose afterAdd /Users/admin/.npm/bn.js/3.3.0/package/package.json written
+443 http 304 https://registry.npmjs.org/browserify-sha3
+444 verbose headers { date: 'Sat, 29 Jul 2017 17:47:30 GMT',
+444 verbose headers   via: '1.1 varnish',
+444 verbose headers   'cache-control': 'max-age=300',
+444 verbose headers   etag: 'W/"597a573b-1632"',
+444 verbose headers   age: '0',
+444 verbose headers   connection: 'keep-alive',
+444 verbose headers   'x-served-by': 'cache-itm7422-ITM',
+444 verbose headers   'x-cache': 'MISS',
+444 verbose headers   'x-cache-hits': '0',
+444 verbose headers   'x-timer': 'S1501350450.339020,VS0,VE556',
+444 verbose headers   vary: 'Accept-Encoding, Accept' }
+445 silly get cb [ 304,
+445 silly get   { date: 'Sat, 29 Jul 2017 17:47:30 GMT',
+445 silly get     via: '1.1 varnish',
+445 silly get     'cache-control': 'max-age=300',
+445 silly get     etag: 'W/"597a573b-1632"',
+445 silly get     age: '0',
+445 silly get     connection: 'keep-alive',
+445 silly get     'x-served-by': 'cache-itm7422-ITM',
+445 silly get     'x-cache': 'MISS',
+445 silly get     'x-cache-hits': '0',
+445 silly get     'x-timer': 'S1501350450.339020,VS0,VE556',
+445 silly get     vary: 'Accept-Encoding, Accept' } ]
+446 verbose etag https://registry.npmjs.org/browserify-sha3 from cache
+447 verbose get saving browserify-sha3 to /Users/admin/.npm/registry.npmjs.org/browserify-sha3/.cache.json
+448 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+449 silly resolveWithNewModule browserify-sha3@0.0.0 checking installable status
+450 silly cache add args [ 'browserify-sha3@0.0.0', null ]
+451 verbose cache add spec browserify-sha3@0.0.0
+452 silly cache add parsed spec Result {
+452 silly cache add   raw: 'browserify-sha3@0.0.0',
+452 silly cache add   scope: null,
+452 silly cache add   escapedName: 'browserify-sha3',
+452 silly cache add   name: 'browserify-sha3',
+452 silly cache add   rawSpec: '0.0.0',
+452 silly cache add   spec: '0.0.0',
+452 silly cache add   type: 'version' }
+453 silly addNamed browserify-sha3@0.0.0
+454 verbose addNamed "0.0.0" is a plain semver version for browserify-sha3
+455 silly mapToRegistry name browserify-sha3
+456 silly mapToRegistry using default registry
+457 silly mapToRegistry registry https://registry.npmjs.org/
+458 silly mapToRegistry data Result {
+458 silly mapToRegistry   raw: 'browserify-sha3',
+458 silly mapToRegistry   scope: null,
+458 silly mapToRegistry   escapedName: 'browserify-sha3',
+458 silly mapToRegistry   name: 'browserify-sha3',
+458 silly mapToRegistry   rawSpec: '',
+458 silly mapToRegistry   spec: 'latest',
+458 silly mapToRegistry   type: 'tag' }
+459 silly mapToRegistry uri https://registry.npmjs.org/browserify-sha3
+460 verbose addNameVersion registry:https://registry.npmjs.org/browserify-sha3 not in flight; fetching
+461 verbose get https://registry.npmjs.org/browserify-sha3 not expired, no request
+462 silly cache afterAdd browserify-sha3@0.0.0
+463 verbose afterAdd /Users/admin/.npm/browserify-sha3/0.0.0/package/package.json not in flight; writing
+464 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+465 verbose afterAdd /Users/admin/.npm/browserify-sha3/0.0.0/package/package.json written
+466 silly fetchNamedPackageData nan
+467 silly mapToRegistry name nan
+468 silly mapToRegistry using default registry
+469 silly mapToRegistry registry https://registry.npmjs.org/
+470 silly mapToRegistry data Result {
+470 silly mapToRegistry   raw: 'nan',
+470 silly mapToRegistry   scope: null,
+470 silly mapToRegistry   escapedName: 'nan',
+470 silly mapToRegistry   name: 'nan',
+470 silly mapToRegistry   rawSpec: '',
+470 silly mapToRegistry   spec: 'latest',
+470 silly mapToRegistry   type: 'tag' }
+471 silly mapToRegistry uri https://registry.npmjs.org/nan
+472 verbose request uri https://registry.npmjs.org/nan
+473 verbose request no auth needed
+474 info attempt registry request try #1 at 1:47:30 AM
+475 verbose etag W/"597a1ce5-1fa1a"
+476 verbose lastModified Thu, 27 Jul 2017 17:03:33 GMT
+477 http request GET https://registry.npmjs.org/nan
+478 http 304 https://registry.npmjs.org/nan
+479 verbose headers { date: 'Sat, 29 Jul 2017 17:47:30 GMT',
+479 verbose headers   via: '1.1 varnish',
+479 verbose headers   'cache-control': 'max-age=300',
+479 verbose headers   etag: 'W/"597a1ce5-1fa1a"',
+479 verbose headers   age: '199',
+479 verbose headers   connection: 'keep-alive',
+479 verbose headers   'x-served-by': 'cache-itm7425-ITM',
+479 verbose headers   'x-cache': 'HIT',
+479 verbose headers   'x-cache-hits': '2',
+479 verbose headers   'x-timer': 'S1501350451.963746,VS0,VE0',
+479 verbose headers   vary: 'Accept-Encoding, Accept' }
+480 silly get cb [ 304,
+480 silly get   { date: 'Sat, 29 Jul 2017 17:47:30 GMT',
+480 silly get     via: '1.1 varnish',
+480 silly get     'cache-control': 'max-age=300',
+480 silly get     etag: 'W/"597a1ce5-1fa1a"',
+480 silly get     age: '199',
+480 silly get     connection: 'keep-alive',
+480 silly get     'x-served-by': 'cache-itm7425-ITM',
+480 silly get     'x-cache': 'HIT',
+480 silly get     'x-cache-hits': '2',
+480 silly get     'x-timer': 'S1501350451.963746,VS0,VE0',
+480 silly get     vary: 'Accept-Encoding, Accept' } ]
+481 verbose etag https://registry.npmjs.org/nan from cache
+482 verbose get saving nan to /Users/admin/.npm/registry.npmjs.org/nan/.cache.json
+483 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+484 silly resolveWithNewModule nan@1.9.0 checking installable status
+485 silly cache add args [ 'nan@^1.4.1', null ]
+486 verbose cache add spec nan@^1.4.1
+487 silly cache add parsed spec Result {
+487 silly cache add   raw: 'nan@^1.4.1',
+487 silly cache add   scope: null,
+487 silly cache add   escapedName: 'nan',
+487 silly cache add   name: 'nan',
+487 silly cache add   rawSpec: '^1.4.1',
+487 silly cache add   spec: '>=1.4.1 <2.0.0',
+487 silly cache add   type: 'range' }
+488 silly addNamed nan@>=1.4.1 <2.0.0
+489 verbose addNamed ">=1.4.1 <2.0.0" is a valid semver range for nan
+490 silly addNameRange { name: 'nan', range: '>=1.4.1 <2.0.0', hasData: false }
+491 silly mapToRegistry name nan
+492 silly mapToRegistry using default registry
+493 silly mapToRegistry registry https://registry.npmjs.org/
+494 silly mapToRegistry data Result {
+494 silly mapToRegistry   raw: 'nan',
+494 silly mapToRegistry   scope: null,
+494 silly mapToRegistry   escapedName: 'nan',
+494 silly mapToRegistry   name: 'nan',
+494 silly mapToRegistry   rawSpec: '',
+494 silly mapToRegistry   spec: 'latest',
+494 silly mapToRegistry   type: 'tag' }
+495 silly mapToRegistry uri https://registry.npmjs.org/nan
+496 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+497 verbose get https://registry.npmjs.org/nan not expired, no request
+498 silly addNameRange number 2 { name: 'nan', range: '>=1.4.1 <2.0.0', hasData: true }
+499 silly addNameRange versions [ 'nan',
+499 silly addNameRange   [ '0.3.0-wip',
+499 silly addNameRange     '0.3.0-wip2',
+499 silly addNameRange     '0.3.0',
+499 silly addNameRange     '0.3.1',
+499 silly addNameRange     '0.3.2',
+499 silly addNameRange     '0.4.0',
+499 silly addNameRange     '0.4.1',
+499 silly addNameRange     '0.4.2',
+499 silly addNameRange     '0.4.3',
+499 silly addNameRange     '0.4.4',
+499 silly addNameRange     '0.5.0',
+499 silly addNameRange     '0.5.1',
+499 silly addNameRange     '0.5.2',
+499 silly addNameRange     '0.6.0',
+499 silly addNameRange     '0.7.0',
+499 silly addNameRange     '0.7.1',
+499 silly addNameRange     '0.8.0',
+499 silly addNameRange     '1.0.0',
+499 silly addNameRange     '1.1.0',
+499 silly addNameRange     '1.1.1',
+499 silly addNameRange     '1.1.2',
+499 silly addNameRange     '1.2.0',
+499 silly addNameRange     '1.3.0',
+499 silly addNameRange     '1.4.0',
+499 silly addNameRange     '1.4.1',
+499 silly addNameRange     '1.5.0',
+499 silly addNameRange     '1.4.2',
+499 silly addNameRange     '1.4.3',
+499 silly addNameRange     '1.5.1',
+499 silly addNameRange     '1.5.2',
+499 silly addNameRange     '1.6.0',
+499 silly addNameRange     '1.5.3',
+499 silly addNameRange     '1.6.1',
+499 silly addNameRange     '1.6.2',
+499 silly addNameRange     '1.7.0',
+499 silly addNameRange     '1.8.0',
+499 silly addNameRange     '1.8.1',
+499 silly addNameRange     '1.8.2',
+499 silly addNameRange     '1.8.3',
+499 silly addNameRange     '1.8.4',
+499 silly addNameRange     '1.9.0',
+499 silly addNameRange     '2.0.0',
+499 silly addNameRange     '2.0.1',
+499 silly addNameRange     '2.0.2',
+499 silly addNameRange     '2.0.3',
+499 silly addNameRange     '2.0.4',
+499 silly addNameRange     '2.0.5',
+499 silly addNameRange     '2.0.6',
+499 silly addNameRange     '2.0.7',
+499 silly addNameRange     '2.0.8',
+499 silly addNameRange     '2.0.9',
+499 silly addNameRange     '2.1.0',
+499 silly addNameRange     '2.2.0',
+499 silly addNameRange     '2.2.1',
+499 silly addNameRange     '2.3.0',
+499 silly addNameRange     '2.3.1',
+499 silly addNameRange     '2.3.2',
+499 silly addNameRange     '2.3.3',
+499 silly addNameRange     '2.3.4',
+499 silly addNameRange     '2.3.5',
+499 silly addNameRange     '2.4.0',
+499 silly addNameRange     '2.5.0',
+499 silly addNameRange     '2.5.1',
+499 silly addNameRange     '2.6.0',
+499 silly addNameRange     '2.6.1',
+499 silly addNameRange     '2.6.2' ] ]
+500 silly addNamed nan@1.9.0
+501 verbose addNamed "1.9.0" is a plain semver version for nan
+502 silly cache afterAdd nan@1.9.0
+503 verbose afterAdd /Users/admin/.npm/nan/1.9.0/package/package.json not in flight; writing
+504 verbose correctMkdir /Users/admin/.npm correctMkdir not in flight; initializing
+505 verbose afterAdd /Users/admin/.npm/nan/1.9.0/package/package.json written
+506 silly loadAllDepsIntoIdealTree Finishing
+507 silly loadIdealTree Finishing
+508 silly currentTree RawTxnDemo@0.0.1
+508 silly currentTree ├── ansi-regex@2.1.1
+508 silly currentTree ├── aproba@1.1.2
+508 silly currentTree ├── are-we-there-yet@1.1.4
+508 silly currentTree ├── bignumber.js@2.4.0
+508 silly currentTree ├── bindings@1.3.0
+508 silly currentTree ├── bip66@1.1.5
+508 silly currentTree ├── bl@1.2.1
+508 silly currentTree ├── bn.js@4.11.7
+508 silly currentTree ├── brorand@1.1.0
+508 silly currentTree ├── browserify-aes@1.0.6
+508 silly currentTree ├── browserify-cryptojs@0.3.1
+508 silly currentTree ├── browserify-sha3@0.0.1
+508 silly currentTree ├── buffer-xor@1.0.3
+508 silly currentTree ├── chownr@1.0.1
+508 silly currentTree ├── cipher-base@1.0.4
+508 silly currentTree ├── code-point-at@1.1.0
+508 silly currentTree ├── coffee-script@1.12.7
+508 silly currentTree ├── console-control-strings@1.1.0
+508 silly currentTree ├── core-util-is@1.0.2
+508 silly currentTree ├── create-hash@1.1.3
+508 silly currentTree ├── create-hmac@1.1.6
+508 silly currentTree ├── crypto-js@3.1.9-1
+508 silly currentTree ├── deep-extend@0.4.2
+508 silly currentTree ├── delegates@1.0.0
+508 silly currentTree ├── drbg.js@1.0.1
+508 silly currentTree ├── e@0.0.4
+508 silly currentTree ├── elliptic@6.4.0
+508 silly currentTree ├── end-of-stream@1.4.0
+508 silly currentTree ├── ethereum-common@0.0.3
+508 silly currentTree ├── ethereumjs-account@2.0.4
+508 silly currentTree ├── ethereumjs-util@4.5.0
+508 silly currentTree ├── evp_bytestokey@1.0.0
+508 silly currentTree ├── expand-template@1.0.3
+508 silly currentTree ├── gauge@2.7.4
+508 silly currentTree ├── github-from-package@0.0.0
+508 silly currentTree ├── has-unicode@2.0.1
+508 silly currentTree ├── hash-base@2.0.2
+508 silly currentTree ├── hash.js@1.1.3
+508 silly currentTree ├── hmac-drbg@1.0.1
+508 silly currentTree ├── inherits@2.0.3
+508 silly currentTree ├── ini@1.3.4
+508 silly currentTree ├── is-fullwidth-code-point@1.0.0
+508 silly currentTree ├── isarray@1.0.0
+508 silly currentTree ├── js-sha3@0.3.1
+508 silly currentTree ├── jszip@2.6.1
+508 silly currentTree ├── keccak@1.2.0
+508 silly currentTree ├── keccakjs@0.2.1
+508 silly currentTree ├── keythereum@1.0.2
+508 silly currentTree ├── localstorejs@0.1.9
+508 silly currentTree ├── minimalistic-assert@1.0.0
+508 silly currentTree ├── minimalistic-crypto-utils@1.0.1
+508 silly currentTree ├── minimist@1.2.0
+508 silly currentTree ├─┬ mkdirp@0.5.1
+508 silly currentTree │ └── minimist@0.0.8
+508 silly currentTree ├── nan@2.6.2
+508 silly currentTree ├── node-abi@2.1.0
+508 silly currentTree ├── node-safe-filesaver@0.1.0
+508 silly currentTree ├── noop-logger@0.1.1
+508 silly currentTree ├── npmlog@4.1.2
+508 silly currentTree ├── number-is-nan@1.0.1
+508 silly currentTree ├── object-assign@4.1.1
+508 silly currentTree ├── once@1.4.0
+508 silly currentTree ├── os-homedir@1.0.2
+508 silly currentTree ├── pako@1.0.5
+508 silly currentTree ├── prebuild-install@2.2.1
+508 silly currentTree ├── process-nextick-args@1.0.7
+508 silly currentTree ├── pump@1.0.2
+508 silly currentTree ├── rc@1.2.1
+508 silly currentTree ├── readable-stream@2.3.3
+508 silly currentTree ├── ripemd160@2.0.1
+508 silly currentTree ├── rlp@2.0.0
+508 silly currentTree ├── safe-buffer@5.1.1
+508 silly currentTree ├── secp256k1@3.2.5
+508 silly currentTree ├── set-blocking@2.0.0
+508 silly currentTree ├── sha.js@2.4.8
+508 silly currentTree ├── sha3@1.2.0
+508 silly currentTree ├── signal-exit@3.0.2
+508 silly currentTree ├── simple-get@1.4.3
+508 silly currentTree ├── sjcl@1.0.6
+508 silly currentTree ├── string_decoder@1.0.3
+508 silly currentTree ├── string-width@1.0.2
+508 silly currentTree ├── strip-ansi@3.0.1
+508 silly currentTree ├── strip-json-comments@2.0.1
+508 silly currentTree ├── tar-fs@1.15.3
+508 silly currentTree ├── tar-stream@1.5.4
+508 silly currentTree ├── tunnel-agent@0.6.0
+508 silly currentTree ├── underscore@1.8.3
+508 silly currentTree ├── unzip-response@1.0.2
+508 silly currentTree ├── util-deprecate@1.0.2
+508 silly currentTree ├── uuid@3.0.0
+508 silly currentTree ├── wide-align@1.1.2
+508 silly currentTree ├── wrappy@1.0.2
+508 silly currentTree └── xtend@4.0.1
+509 silly idealTree RawTxnDemo@0.0.1
+509 silly idealTree ├── ansi-regex@2.1.1
+509 silly idealTree ├── aproba@1.1.2
+509 silly idealTree ├── are-we-there-yet@1.1.4
+509 silly idealTree ├── bignumber.js@2.4.0
+509 silly idealTree ├── bindings@1.3.0
+509 silly idealTree ├── bip66@1.1.5
+509 silly idealTree ├── bl@1.2.1
+509 silly idealTree ├── bn.js@4.11.7
+509 silly idealTree ├── brorand@1.1.0
+509 silly idealTree ├── browserify-aes@1.0.6
+509 silly idealTree ├── browserify-cryptojs@0.3.1
+509 silly idealTree ├── browserify-sha3@0.0.1
+509 silly idealTree ├── buffer-xor@1.0.3
+509 silly idealTree ├── chownr@1.0.1
+509 silly idealTree ├── cipher-base@1.0.4
+509 silly idealTree ├── code-point-at@1.1.0
+509 silly idealTree ├── coffee-script@1.12.7
+509 silly idealTree ├── console-control-strings@1.1.0
+509 silly idealTree ├── core-util-is@1.0.2
+509 silly idealTree ├── create-hash@1.1.3
+509 silly idealTree ├── create-hmac@1.1.6
+509 silly idealTree ├── crypto-js@3.1.9-1
+509 silly idealTree ├── deep-extend@0.4.2
+509 silly idealTree ├── delegates@1.0.0
+509 silly idealTree ├── drbg.js@1.0.1
+509 silly idealTree ├── e@0.0.4
+509 silly idealTree ├── elliptic@6.4.0
+509 silly idealTree ├── end-of-stream@1.4.0
+509 silly idealTree ├── ethereum-common@0.0.3
+509 silly idealTree ├── ethereumjs-account@2.0.4
+509 silly idealTree ├─┬ ethereumjs-accounts@0.0.15
+509 silly idealTree │ ├── bn.js@2.2.0
+509 silly idealTree │ ├── browserify-sha3@0.0.0
+509 silly idealTree │ ├── elliptic@3.1.0
+509 silly idealTree │ ├── ethereumjs-tx@0.4.0
+509 silly idealTree │ ├─┬ ethereumjs-util@1.5.1
+509 silly idealTree │ │ ├── bn.js@3.3.0
+509 silly idealTree │ │ └── elliptic@5.2.1
+509 silly idealTree │ ├── nan@1.9.0
+509 silly idealTree │ ├── rlp@1.1.2
+509 silly idealTree │ └── secp256k1@0.0.15
+509 silly idealTree ├── ethereumjs-util@4.5.0
+509 silly idealTree ├── evp_bytestokey@1.0.0
+509 silly idealTree ├── expand-template@1.0.3
+509 silly idealTree ├── gauge@2.7.4
+509 silly idealTree ├── github-from-package@0.0.0
+509 silly idealTree ├── has-unicode@2.0.1
+509 silly idealTree ├── hash-base@2.0.2
+509 silly idealTree ├── hash.js@1.1.3
+509 silly idealTree ├── hmac-drbg@1.0.1
+509 silly idealTree ├── inherits@2.0.3
+509 silly idealTree ├── ini@1.3.4
+509 silly idealTree ├── is-fullwidth-code-point@1.0.0
+509 silly idealTree ├── isarray@1.0.0
+509 silly idealTree ├── js-sha3@0.3.1
+509 silly idealTree ├── jszip@2.6.1
+509 silly idealTree ├── keccak@1.2.0
+509 silly idealTree ├── keccakjs@0.2.1
+509 silly idealTree ├── keythereum@1.0.2
+509 silly idealTree ├── localstorejs@0.1.9
+509 silly idealTree ├── minimalistic-assert@1.0.0
+509 silly idealTree ├── minimalistic-crypto-utils@1.0.1
+509 silly idealTree ├── minimist@1.2.0
+509 silly idealTree ├─┬ mkdirp@0.5.1
+509 silly idealTree │ └── minimist@0.0.8
+509 silly idealTree ├── nan@2.6.2
+509 silly idealTree ├── node-abi@2.1.0
+509 silly idealTree ├── node-safe-filesaver@0.1.0
+509 silly idealTree ├── noop-logger@0.1.1
+509 silly idealTree ├── npmlog@4.1.2
+509 silly idealTree ├── number-is-nan@1.0.1
+509 silly idealTree ├── object-assign@4.1.1
+509 silly idealTree ├── once@1.4.0
+509 silly idealTree ├── os-homedir@1.0.2
+509 silly idealTree ├── pako@1.0.5
+509 silly idealTree ├── prebuild-install@2.2.1
+509 silly idealTree ├── process-nextick-args@1.0.7
+509 silly idealTree ├── pump@1.0.2
+509 silly idealTree ├── rc@1.2.1
+509 silly idealTree ├── readable-stream@2.3.3
+509 silly idealTree ├── ripemd160@2.0.1
+509 silly idealTree ├── rlp@2.0.0
+509 silly idealTree ├── safe-buffer@5.1.1
+509 silly idealTree ├── secp256k1@3.2.5
+509 silly idealTree ├── set-blocking@2.0.0
+509 silly idealTree ├── sha.js@2.4.8
+509 silly idealTree ├── sha3@1.2.0
+509 silly idealTree ├── signal-exit@3.0.2
+509 silly idealTree ├── simple-get@1.4.3
+509 silly idealTree ├── sjcl@1.0.6
+509 silly idealTree ├── string_decoder@1.0.3
+509 silly idealTree ├── string-width@1.0.2
+509 silly idealTree ├── strip-ansi@3.0.1
+509 silly idealTree ├── strip-json-comments@2.0.1
+509 silly idealTree ├── tar-fs@1.15.3
+509 silly idealTree ├── tar-stream@1.5.4
+509 silly idealTree ├── tunnel-agent@0.6.0
+509 silly idealTree ├── underscore@1.8.3
+509 silly idealTree ├── unzip-response@1.0.2
+509 silly idealTree ├── util-deprecate@1.0.2
+509 silly idealTree ├── uuid@3.0.0
+509 silly idealTree ├── wide-align@1.1.2
+509 silly idealTree ├── wrappy@1.0.2
+509 silly idealTree └── xtend@4.0.1
+510 silly generateActionsToTake Starting
+511 silly install generateActionsToTake
+512 silly generateActionsToTake Finishing
+513 silly diffTrees action count 12
+514 silly diffTrees add bn.js@2.2.0
+515 silly diffTrees add browserify-sha3@0.0.0
+516 silly diffTrees add elliptic@3.1.0
+517 silly diffTrees add bn.js@3.3.0
+518 silly diffTrees add elliptic@5.2.1
+519 silly diffTrees add nan@1.9.0
+520 silly diffTrees add rlp@1.1.2
+521 silly diffTrees add ethereumjs-util@1.5.1
+522 silly diffTrees add secp256k1@0.0.15
+523 silly diffTrees update e@0.0.4
+524 silly diffTrees add ethereumjs-tx@0.4.0
+525 silly diffTrees add ethereumjs-accounts@0.0.15
+526 silly decomposeActions action count 97
+527 silly decomposeActions fetch bn.js@2.2.0
+528 silly decomposeActions extract bn.js@2.2.0
+529 silly decomposeActions test bn.js@2.2.0
+530 silly decomposeActions preinstall bn.js@2.2.0
+531 silly decomposeActions build bn.js@2.2.0
+532 silly decomposeActions install bn.js@2.2.0
+533 silly decomposeActions postinstall bn.js@2.2.0
+534 silly decomposeActions finalize bn.js@2.2.0
+535 silly decomposeActions fetch browserify-sha3@0.0.0
+536 silly decomposeActions extract browserify-sha3@0.0.0
+537 silly decomposeActions test browserify-sha3@0.0.0
+538 silly decomposeActions preinstall browserify-sha3@0.0.0
+539 silly decomposeActions build browserify-sha3@0.0.0
+540 silly decomposeActions install browserify-sha3@0.0.0
+541 silly decomposeActions postinstall browserify-sha3@0.0.0
+542 silly decomposeActions finalize browserify-sha3@0.0.0
+543 silly decomposeActions fetch elliptic@3.1.0
+544 silly decomposeActions extract elliptic@3.1.0
+545 silly decomposeActions test elliptic@3.1.0
+546 silly decomposeActions preinstall elliptic@3.1.0
+547 silly decomposeActions build elliptic@3.1.0
+548 silly decomposeActions install elliptic@3.1.0
+549 silly decomposeActions postinstall elliptic@3.1.0
+550 silly decomposeActions finalize elliptic@3.1.0
+551 silly decomposeActions fetch bn.js@3.3.0
+552 silly decomposeActions extract bn.js@3.3.0
+553 silly decomposeActions test bn.js@3.3.0
+554 silly decomposeActions preinstall bn.js@3.3.0
+555 silly decomposeActions build bn.js@3.3.0
+556 silly decomposeActions install bn.js@3.3.0
+557 silly decomposeActions postinstall bn.js@3.3.0
+558 silly decomposeActions finalize bn.js@3.3.0
+559 silly decomposeActions fetch elliptic@5.2.1
+560 silly decomposeActions extract elliptic@5.2.1
+561 silly decomposeActions test elliptic@5.2.1
+562 silly decomposeActions preinstall elliptic@5.2.1
+563 silly decomposeActions build elliptic@5.2.1
+564 silly decomposeActions install elliptic@5.2.1
+565 silly decomposeActions postinstall elliptic@5.2.1
+566 silly decomposeActions finalize elliptic@5.2.1
+567 silly decomposeActions fetch nan@1.9.0
+568 silly decomposeActions extract nan@1.9.0
+569 silly decomposeActions test nan@1.9.0
+570 silly decomposeActions preinstall nan@1.9.0
+571 silly decomposeActions build nan@1.9.0
+572 silly decomposeActions install nan@1.9.0
+573 silly decomposeActions postinstall nan@1.9.0
+574 silly decomposeActions finalize nan@1.9.0
+575 silly decomposeActions fetch rlp@1.1.2
+576 silly decomposeActions extract rlp@1.1.2
+577 silly decomposeActions test rlp@1.1.2
+578 silly decomposeActions preinstall rlp@1.1.2
+579 silly decomposeActions build rlp@1.1.2
+580 silly decomposeActions install rlp@1.1.2
+581 silly decomposeActions postinstall rlp@1.1.2
+582 silly decomposeActions finalize rlp@1.1.2
+583 silly decomposeActions fetch ethereumjs-util@1.5.1
+584 silly decomposeActions extract ethereumjs-util@1.5.1
+585 silly decomposeActions test ethereumjs-util@1.5.1
+586 silly decomposeActions preinstall ethereumjs-util@1.5.1
+587 silly decomposeActions build ethereumjs-util@1.5.1
+588 silly decomposeActions install ethereumjs-util@1.5.1
+589 silly decomposeActions postinstall ethereumjs-util@1.5.1
+590 silly decomposeActions finalize ethereumjs-util@1.5.1
+591 silly decomposeActions fetch secp256k1@0.0.15
+592 silly decomposeActions extract secp256k1@0.0.15
+593 silly decomposeActions test secp256k1@0.0.15
+594 silly decomposeActions preinstall secp256k1@0.0.15
+595 silly decomposeActions build secp256k1@0.0.15
+596 silly decomposeActions install secp256k1@0.0.15
+597 silly decomposeActions postinstall secp256k1@0.0.15
+598 silly decomposeActions finalize secp256k1@0.0.15
+599 silly decomposeActions remove e@0.0.4
+600 silly decomposeActions fetch e@0.0.4
+601 silly decomposeActions extract e@0.0.4
+602 silly decomposeActions test e@0.0.4
+603 silly decomposeActions preinstall e@0.0.4
+604 silly decomposeActions build e@0.0.4
+605 silly decomposeActions install e@0.0.4
+606 silly decomposeActions postinstall e@0.0.4
+607 silly decomposeActions finalize e@0.0.4
+608 silly decomposeActions fetch ethereumjs-tx@0.4.0
+609 silly decomposeActions extract ethereumjs-tx@0.4.0
+610 silly decomposeActions test ethereumjs-tx@0.4.0
+611 silly decomposeActions preinstall ethereumjs-tx@0.4.0
+612 silly decomposeActions build ethereumjs-tx@0.4.0
+613 silly decomposeActions install ethereumjs-tx@0.4.0
+614 silly decomposeActions postinstall ethereumjs-tx@0.4.0
+615 silly decomposeActions finalize ethereumjs-tx@0.4.0
+616 silly decomposeActions fetch ethereumjs-accounts@0.0.15
+617 silly decomposeActions extract ethereumjs-accounts@0.0.15
+618 silly decomposeActions test ethereumjs-accounts@0.0.15
+619 silly decomposeActions preinstall ethereumjs-accounts@0.0.15
+620 silly decomposeActions build ethereumjs-accounts@0.0.15
+621 silly decomposeActions install ethereumjs-accounts@0.0.15
+622 silly decomposeActions postinstall ethereumjs-accounts@0.0.15
+623 silly decomposeActions finalize ethereumjs-accounts@0.0.15
+624 silly runTopLevelLifecycles Starting
+625 silly executeActions Starting
+626 silly install executeActions
+627 silly doSerial global-install 0
+628 silly doParallel fetch 12
+629 verbose correctMkdir /Users/admin/.npm/_locks correctMkdir not in flight; initializing
+630 verbose lock using /Users/admin/.npm/_locks/staging-396821d390608a2d.lock for /Users/admin/Desktop/RawTxnDemo/node_modules/.staging
+631 silly doParallel extract 12
+632 silly extract bn.js@2.2.0
+633 silly extract browserify-sha3@0.0.0
+634 silly extract elliptic@3.1.0
+635 silly extract bn.js@3.3.0
+636 silly extract elliptic@5.2.1
+637 silly extract nan@1.9.0
+638 silly extract rlp@1.1.2
+639 silly extract ethereumjs-util@1.5.1
+640 silly extract secp256k1@0.0.15
+641 silly extract e@0.0.4
+642 silly extract ethereumjs-tx@0.4.0
+643 silly extract ethereumjs-accounts@0.0.15
+644 verbose unbuild node_modules/.staging/bn.js-e8483f44
+645 verbose unbuild node_modules/.staging/elliptic-fd7ef739
+646 verbose unbuild node_modules/.staging/browserify-sha3-fa823be0
+647 verbose unbuild node_modules/.staging/bn.js-c5b815f8
+648 verbose unbuild node_modules/.staging/elliptic-86de1642
+649 verbose unbuild node_modules/.staging/nan-9f833897
+650 verbose unbuild node_modules/.staging/ethereumjs-util-7b7d6c4a
+651 verbose unbuild node_modules/.staging/e-0932a05f
+652 verbose unbuild node_modules/.staging/secp256k1-755e23fc
+653 verbose unbuild node_modules/.staging/ethereumjs-tx-fd057e57
+654 verbose unbuild node_modules/.staging/ethereumjs-accounts-55a86dd9
+655 verbose unbuild node_modules/.staging/rlp-3234bc8a
+656 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-e8483f44 is being purged from base /Users/admin/Desktop/RawTxnDemo
+657 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-e8483f44
+658 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-fd7ef739 is being purged from base /Users/admin/Desktop/RawTxnDemo
+659 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-fd7ef739
+660 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/browserify-sha3-fa823be0 is being purged from base /Users/admin/Desktop/RawTxnDemo
+661 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/browserify-sha3-fa823be0
+662 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-c5b815f8 is being purged from base /Users/admin/Desktop/RawTxnDemo
+663 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-c5b815f8
+664 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-86de1642 is being purged from base /Users/admin/Desktop/RawTxnDemo
+665 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-86de1642
+666 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-util-7b7d6c4a is being purged from base /Users/admin/Desktop/RawTxnDemo
+667 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-util-7b7d6c4a
+668 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/nan-9f833897 is being purged from base /Users/admin/Desktop/RawTxnDemo
+669 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/nan-9f833897
+670 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/e-0932a05f is being purged from base /Users/admin/Desktop/RawTxnDemo
+671 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/e-0932a05f
+672 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/secp256k1-755e23fc is being purged from base /Users/admin/Desktop/RawTxnDemo
+673 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/secp256k1-755e23fc
+674 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-tx-fd057e57 is being purged from base /Users/admin/Desktop/RawTxnDemo
+675 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-tx-fd057e57
+676 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-accounts-55a86dd9 is being purged from base /Users/admin/Desktop/RawTxnDemo
+677 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-accounts-55a86dd9
+678 verbose tar unpack /Users/admin/.npm/bn.js/2.2.0/package.tgz
+679 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-e8483f44
+680 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-e8483f44 is being purged
+681 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-e8483f44
+682 verbose tar unpack /Users/admin/.npm/elliptic/3.1.0/package.tgz
+683 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-fd7ef739
+684 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-fd7ef739 is being purged
+685 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-fd7ef739
+686 verbose tar unpack /Users/admin/.npm/browserify-sha3/0.0.0/package.tgz
+687 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/browserify-sha3-fa823be0
+688 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/browserify-sha3-fa823be0 is being purged
+689 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/browserify-sha3-fa823be0
+690 verbose tar unpack /Users/admin/.npm/bn.js/3.3.0/package.tgz
+691 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-c5b815f8
+692 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-c5b815f8 is being purged
+693 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-c5b815f8
+694 verbose tar unpack /Users/admin/.npm/elliptic/5.2.1/package.tgz
+695 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-86de1642
+696 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-86de1642 is being purged
+697 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-86de1642
+698 verbose tar unpack /Users/admin/.npm/ethereumjs-util/1.5.1/package.tgz
+699 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-util-7b7d6c4a
+700 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-util-7b7d6c4a is being purged
+701 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-util-7b7d6c4a
+702 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/rlp-3234bc8a is being purged from base /Users/admin/Desktop/RawTxnDemo
+703 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/rlp-3234bc8a
+704 verbose tar unpack /Users/admin/.npm/nan/1.9.0/package.tgz
+705 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/nan-9f833897
+706 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/nan-9f833897 is being purged
+707 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/nan-9f833897
+708 verbose tar unpack /Users/admin/.npm/e/0.0.4/package.tgz
+709 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/e-0932a05f
+710 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/e-0932a05f is being purged
+711 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/e-0932a05f
+712 verbose tar unpack /Users/admin/.npm/secp256k1/0.0.15/package.tgz
+713 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/secp256k1-755e23fc
+714 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/secp256k1-755e23fc is being purged
+715 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/secp256k1-755e23fc
+716 verbose tar unpack /Users/admin/.npm/ethereumjs-tx/0.4.0/package.tgz
+717 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-tx-fd057e57
+718 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-tx-fd057e57 is being purged
+719 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-tx-fd057e57
+720 verbose tar unpack /Users/admin/.npm/ethereumjs-accounts/0.0.15/package.tgz
+721 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-accounts-55a86dd9
+722 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-accounts-55a86dd9 is being purged
+723 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-accounts-55a86dd9
+724 silly gunzTarPerm modes [ '755', '644' ]
+725 silly gunzTarPerm modes [ '755', '644' ]
+726 silly gunzTarPerm modes [ '755', '644' ]
+727 silly gunzTarPerm modes [ '755', '644' ]
+728 silly gunzTarPerm modes [ '755', '644' ]
+729 silly gunzTarPerm modes [ '755', '644' ]
+730 verbose tar unpack /Users/admin/.npm/rlp/1.1.2/package.tgz
+731 verbose tar unpacking to /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/rlp-3234bc8a
+732 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/rlp-3234bc8a is being purged
+733 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/rlp-3234bc8a
+734 silly gunzTarPerm modes [ '755', '644' ]
+735 silly gunzTarPerm modes [ '755', '644' ]
+736 silly gunzTarPerm modes [ '755', '644' ]
+737 silly gunzTarPerm modes [ '755', '644' ]
+738 silly gunzTarPerm modes [ '755', '644' ]
+739 silly gunzTarPerm modes [ '755', '644' ]
+740 silly gunzTarPerm extractEntry package.json
+741 silly gunzTarPerm extractEntry package.json
+742 silly gunzTarPerm extractEntry package.json
+743 silly gunzTarPerm extractEntry package.json
+744 silly gunzTarPerm extractEntry package.json
+745 silly gunzTarPerm extractEntry package.json
+746 silly gunzTarPerm extractEntry package.json
+747 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+748 silly gunzTarPerm extractEntry package.json
+749 silly gunzTarPerm extractEntry package.json
+750 silly gunzTarPerm extractEntry package.json
+751 silly gunzTarPerm extractEntry package.json
+752 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+753 silly gunzTarPerm extractEntry package.json
+754 silly gunzTarPerm extractEntry .npmignore
+755 silly gunzTarPerm extractEntry README.md
+756 silly gunzTarPerm extractEntry README.md
+757 silly gunzTarPerm extractEntry LICENSE
+758 silly gunzTarPerm extractEntry .npmignore
+759 silly gunzTarPerm extractEntry README.md
+760 silly gunzTarPerm extractEntry .npmignore
+761 silly gunzTarPerm extractEntry README.md
+762 silly gunzTarPerm extractEntry .npmignore
+763 silly gunzTarPerm extractEntry README.md
+764 silly gunzTarPerm extractEntry README.md
+765 silly gunzTarPerm extractEntry index.js
+766 silly gunzTarPerm extractEntry README.md
+767 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+768 silly gunzTarPerm extractEntry test/
+769 silly gunzTarPerm extractEntry test/test.txt
+770 silly gunzTarPerm extractEntry .npmignore
+771 silly gunzTarPerm extractEntry README.md
+772 silly gunzTarPerm extractEntry README.md
+773 silly gunzTarPerm extractEntry test.js
+774 silly gunzTarPerm extractEntry .npmignore
+775 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+776 silly gunzTarPerm extractEntry README.md
+777 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+778 silly gunzTarPerm extractEntry include_dirs.js
+779 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+780 silly gunzTarPerm extractEntry README.md
+781 silly gunzTarPerm extractEntry LICENSE
+782 silly gunzTarPerm extractEntry .jshintrc
+783 silly gunzTarPerm extractEntry .jscsrc
+784 silly gunzTarPerm extractEntry index.js
+785 silly gunzTarPerm extractEntry Makefile
+786 silly gunzTarPerm extractEntry .jscsrc
+787 silly gunzTarPerm extractEntry .travis.yml
+788 silly gunzTarPerm extractEntry .travis.yml
+789 silly gunzTarPerm extractEntry LICENSE.md
+790 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+791 silly gunzTarPerm extractEntry .dntrc
+792 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+793 silly gunzTarPerm extractEntry appveyor.yml
+794 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+795 silly gunzTarPerm extractEntry .index.js.swo
+796 silly gunzTarPerm extractEntry test.js
+797 silly gunzTarPerm extractEntry index.js
+798 silly gunzTarPerm extractEntry test/main.coffee
+799 silly gunzTarPerm extractEntry .npmignore
+800 silly gunzTarPerm extractEntry LICENSE
+801 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+802 silly gunzTarPerm extractEntry index.js
+803 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+804 silly gunzTarPerm extractEntry bundle.js
+805 silly gunzTarPerm extractEntry index.js
+806 silly gunzTarPerm extractEntry nan.h
+807 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+808 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+809 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+810 silly gunzTarPerm extractEntry index.js
+811 silly gunzTarPerm extractEntry examples/
+812 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+813 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+814 silly gunzTarPerm extractEntry .jshintrc
+815 silly gunzTarPerm extractEntry dist/.gitkeep
+816 silly gunzTarPerm extractEntry lib/elliptic.js
+817 silly gunzTarPerm extractEntry lib/elliptic/curves.js
+818 silly gunzTarPerm extractEntry lib/elliptic/der.js
+819 silly gunzTarPerm extractEntry lib/elliptic/hmac-drbg.js
+820 silly gunzTarPerm extractEntry lib/elliptic/utils.js
+821 silly gunzTarPerm extractEntry lib/elliptic/curve/base.js
+822 silly gunzTarPerm extractEntry lib/elliptic/curve/edwards.js
+823 silly gunzTarPerm extractEntry lib/elliptic/curve/index.js
+824 silly gunzTarPerm extractEntry lib/elliptic/curve/mont.js
+825 silly gunzTarPerm extractEntry lib/elliptic/curve/short.js
+826 silly gunzTarPerm extractEntry lib/elliptic/ec/index.js
+827 silly gunzTarPerm extractEntry lib/elliptic/ec/key.js
+828 silly gunzTarPerm extractEntry lib/elliptic/ec/signature.js
+829 silly gunzTarPerm extractEntry lib/elliptic/precomputed/secp256k1.js
+830 silly gunzTarPerm extractEntry .travis.yml
+831 silly gunzTarPerm extractEntry test/api-test.js
+832 silly gunzTarPerm extractEntry test/curve-test.js
+833 silly gunzTarPerm extractEntry test/ecdh-test.js
+834 silly gunzTarPerm extractEntry test/ecdsa-test.js
+835 silly gunzTarPerm extractEntry test/hmac-drbg-test.js
+836 silly gunzTarPerm extractEntry .jshintrc
+837 silly gunzTarPerm extractEntry .jscsrc
+838 silly gunzTarPerm extractEntry lib/bn.js
+839 silly gunzTarPerm extractEntry .travis.yml
+840 silly gunzTarPerm extractEntry test/arithmetic-test.js
+841 silly gunzTarPerm extractEntry test/binary-test.js
+842 silly gunzTarPerm extractEntry test/constructor-test.js
+843 silly gunzTarPerm extractEntry test/fixtures.js
+844 silly gunzTarPerm extractEntry test/red-test.js
+845 silly gunzTarPerm extractEntry test/utils-test.js
+846 silly gunzTarPerm extractEntry test/pummel/dh-group-test.js
+847 silly gunzTarPerm extractEntry .travis.yml
+848 silly gunzTarPerm extractEntry benchmark/package.json
+849 silly gunzTarPerm extractEntry benchmark/index.js
+850 silly gunzTarPerm extractEntry .package.json.swo
+851 silly gunzTarPerm extractEntry ecdsaOps.js
+852 silly gunzTarPerm extractEntry .jshintrc
+853 silly gunzTarPerm extractEntry Makefile
+854 silly gunzTarPerm extractEntry package-init.js
+855 silly gunzTarPerm modified mode [ 'package-init.js', 436, 420 ]
+856 silly gunzTarPerm extractEntry .package.json.swo
+857 silly gunzTarPerm extractEntry .travis.yml
+858 silly gunzTarPerm extractEntry tests/index.js
+859 silly gunzTarPerm extractEntry ecdsaOpsBrowser.js
+860 silly gunzTarPerm extractEntry index.js
+861 silly gunzTarPerm extractEntry .index.js.swo
+862 silly gunzTarPerm extractEntry .travis.yml
+863 silly gunzTarPerm extractEntry bin/rlp
+864 silly gunzTarPerm extractEntry test/index.js
+865 silly gunzTarPerm extractEntry nan_new.h
+866 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+867 silly gunzTarPerm extractEntry nan_string_bytes.h
+868 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+869 silly gunzTarPerm extractEntry examples/empty
+870 silly gunzTarPerm extractEntry README.md
+871 silly gunzTarPerm extractEntry lib/bn.js
+872 silly gunzTarPerm extractEntry test/arithmetic-test.js
+873 silly gunzTarPerm extractEntry .travis.yml
+874 silly gunzTarPerm extractEntry .gitmodules
+875 silly gunzTarPerm extractEntry .jscsrc
+876 silly gunzTarPerm extractEntry dist/.gitkeep
+877 silly gunzTarPerm extractEntry package.js
+878 silly gunzTarPerm modified mode [ 'package.js', 436, 420 ]
+879 silly gunzTarPerm extractEntry dist/ethereumjs-accounts.js
+880 silly gunzTarPerm modified mode [ 'dist/ethereumjs-accounts.js', 436, 420 ]
+881 silly gunzTarPerm extractEntry dist/ethereumjs-tx.js
+882 silly gunzTarPerm extractEntry test/defineFields.js
+883 silly gunzTarPerm extractEntry test/index.js
+884 silly gunzTarPerm extractEntry CHANGELOG.md
+885 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+886 silly gunzTarPerm extractEntry tools/node_modules/commander/package.json
+887 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/package.json', 436, 420 ]
+888 silly gunzTarPerm extractEntry LICENSE
+889 silly gunzTarPerm extractEntry lib/
+890 silly gunzTarPerm extractEntry test/binary-test.js
+891 silly gunzTarPerm extractEntry test/constructor-test.js
+892 silly gunzTarPerm extractEntry lib/elliptic.js
+893 silly gunzTarPerm extractEntry lib/elliptic/curves.js
+894 silly gunzTarPerm extractEntry .index.js.swo
+895 silly gunzTarPerm extractEntry binding.gyp
+896 silly gunzTarPerm extractEntry lib/main.coffee
+897 silly gunzTarPerm extractEntry tools/node_modules/commander/LICENSE
+898 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/LICENSE', 436, 420 ]
+899 silly gunzTarPerm extractEntry tools/node_modules/commander/index.js
+900 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/index.js', 436, 420 ]
+901 silly gunzTarPerm extractEntry test/fixtures.js
+902 silly gunzTarPerm extractEntry test/red-test.js
+903 silly gunzTarPerm extractEntry bin/tester
+904 silly gunzTarPerm extractEntry lib/elliptic/hmac-drbg.js
+905 silly gunzTarPerm extractEntry lib/elliptic/utils.js
+906 silly gunzTarPerm extractEntry secp256k1-src/.npmignore
+907 silly gunzTarPerm extractEntry secp256k1-src/README.md
+908 silly gunzTarPerm extractEntry make
+909 silly gunzTarPerm extractEntry test/transactionRunner.js
+910 silly gunzTarPerm extractEntry tools/node_modules/commander/History.md
+911 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/History.md', 436, 420 ]
+912 silly gunzTarPerm extractEntry tools/node_modules/commander/Readme.md
+913 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/Readme.md', 436, 420 ]
+914 silly gunzTarPerm extractEntry test/utils-test.js
+915 silly gunzTarPerm extractEntry test/pummel/dh-group-test.js
+916 silly gunzTarPerm extractEntry test/transactions.js
+917 silly gunzTarPerm extractEntry lib/elliptic/curve/base.js
+918 silly gunzTarPerm extractEntry lib/elliptic/curve/edwards.js
+919 silly gunzTarPerm extractEntry secp256k1-src/COPYING
+920 silly gunzTarPerm extractEntry secp256k1-src/Makefile.am
+921 silly gunzTarPerm extractEntry test/txs.json
+922 silly gunzTarPerm extractEntry .travis.yml
+923 silly gunzTarPerm extractEntry examples/transactions.js
+924 silly gunzTarPerm extractEntry examples/transaction.html
+925 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/package.json
+926 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/package.json',
+926 silly gunzTarPerm   436,
+926 silly gunzTarPerm   420 ]
+927 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/.npmignore
+928 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/.npmignore',
+928 silly gunzTarPerm   436,
+928 silly gunzTarPerm   420 ]
+929 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/README.md
+930 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/README.md',
+930 silly gunzTarPerm   436,
+930 silly gunzTarPerm   420 ]
+931 silly gunzTarPerm extractEntry lib/elliptic/curve/index.js
+932 silly gunzTarPerm extractEntry lib/elliptic/curve/mont.js
+933 silly gunzTarPerm extractEntry secp256k1-src/src/field_impl.h
+934 silly gunzTarPerm extractEntry secp256k1-src/src/bench.h
+935 silly gunzTarPerm extractEntry examples/transactions.html
+936 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/LICENSE
+937 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/LICENSE',
+937 silly gunzTarPerm   436,
+937 silly gunzTarPerm   420 ]
+938 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/index.js
+939 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/index.js',
+939 silly gunzTarPerm   436,
+939 silly gunzTarPerm   420 ]
+940 silly gunzTarPerm extractEntry tools/node_modules/commander/node_modules/graceful-readlink/.travis.yml
+941 silly gunzTarPerm modified mode [ 'tools/node_modules/commander/node_modules/graceful-readlink/.travis.yml',
+941 silly gunzTarPerm   436,
+941 silly gunzTarPerm   420 ]
+942 silly gunzTarPerm extractEntry tools/node_modules/glob/package.json
+943 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/package.json', 436, 420 ]
+944 silly gunzTarPerm extractEntry secp256k1-src/src/bench_recover.c
+945 silly gunzTarPerm extractEntry secp256k1-src/src/bench_sign.c
+946 silly gunzTarPerm extractEntry secp256k1-src/src/bench_verify.c
+947 silly gunzTarPerm extractEntry lib/elliptic/curve/short.js
+948 silly gunzTarPerm extractEntry lib/elliptic/ec/index.js
+949 silly gunzTarPerm extractEntry secp256k1-src/src/ecdsa.h
+950 silly gunzTarPerm extractEntry tools/node_modules/glob/README.md
+951 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/README.md', 436, 420 ]
+952 silly gunzTarPerm extractEntry tools/node_modules/glob/LICENSE
+953 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/LICENSE', 436, 420 ]
+954 silly gunzTarPerm extractEntry lib/elliptic/ec/key.js
+955 silly gunzTarPerm extractEntry lib/elliptic/ec/signature.js
+956 silly gunzTarPerm extractEntry secp256k1-src/src/ecdsa_impl.h
+957 silly gunzTarPerm extractEntry secp256k1-src/src/eckey.h
+958 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/browserify-sha3-fa823be0/node_modules is being purged
+959 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/browserify-sha3-fa823be0/node_modules
+960 silly gunzTarPerm extractEntry tools/node_modules/glob/common.js
+961 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/common.js', 436, 420 ]
+962 silly gunzTarPerm extractEntry tools/node_modules/glob/glob.js
+963 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/glob.js', 436, 420 ]
+964 silly gunzTarPerm extractEntry secp256k1-src/src/eckey_impl.h
+965 silly gunzTarPerm extractEntry secp256k1-src/src/ecmult.h
+966 silly gunzTarPerm extractEntry lib/elliptic/eddsa/index.js
+967 silly gunzTarPerm extractEntry lib/elliptic/eddsa/key.js
+968 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-util-7b7d6c4a/node_modules is being purged
+969 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-util-7b7d6c4a/node_modules
+970 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/rlp-3234bc8a/node_modules is being purged
+971 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/rlp-3234bc8a/node_modules
+972 silly gunzTarPerm extractEntry .versions
+973 silly gunzTarPerm modified mode [ '.versions', 436, 420 ]
+974 silly gunzTarPerm extractEntry examples/hooked-web3-provider.js
+975 silly gunzTarPerm modified mode [ 'examples/hooked-web3-provider.js', 416, 420 ]
+976 silly gunzTarPerm extractEntry tools/node_modules/glob/sync.js
+977 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/sync.js', 436, 420 ]
+978 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/package.json
+979 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/package.json',
+979 silly gunzTarPerm   436,
+979 silly gunzTarPerm   420 ]
+980 silly gunzTarPerm extractEntry secp256k1-src/src/ecmult_gen.h
+981 silly gunzTarPerm extractEntry secp256k1-src/src/ecmult_gen_impl.h
+982 silly gunzTarPerm extractEntry lib/elliptic/eddsa/signature.js
+983 silly gunzTarPerm extractEntry lib/elliptic/precomputed/secp256k1.js
+984 silly gunzTarPerm extractEntry examples/web3.js
+985 silly gunzTarPerm modified mode [ 'examples/web3.js', 436, 420 ]
+986 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/README.md
+987 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/README.md',
+987 silly gunzTarPerm   436,
+987 silly gunzTarPerm   420 ]
+988 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/LICENSE
+989 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/LICENSE',
+989 silly gunzTarPerm   436,
+989 silly gunzTarPerm   420 ]
+990 silly gunzTarPerm extractEntry test/api-test.js
+991 silly gunzTarPerm extractEntry test/curve-test.js
+992 silly gunzTarPerm extractEntry secp256k1-src/src/ecmult_impl.h
+993 silly gunzTarPerm extractEntry secp256k1-src/src/field.h
+994 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/e-0932a05f/node_modules is being purged
+995 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/e-0932a05f/node_modules
+996 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/inflight.js
+997 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/inflight.js',
+997 silly gunzTarPerm   436,
+997 silly gunzTarPerm   420 ]
+998 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/test.js
+999 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/test.js',
+999 silly gunzTarPerm   436,
+999 silly gunzTarPerm   420 ]
+1000 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/.eslintrc
+1001 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/.eslintrc',
+1001 silly gunzTarPerm   436,
+1001 silly gunzTarPerm   420 ]
+1002 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/package.json
+1003 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/package.json',
+1003 silly gunzTarPerm   436,
+1003 silly gunzTarPerm   420 ]
+1004 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/README.md
+1005 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/README.md',
+1005 silly gunzTarPerm   436,
+1005 silly gunzTarPerm   420 ]
+1006 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/LICENSE
+1007 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/LICENSE',
+1007 silly gunzTarPerm   436,
+1007 silly gunzTarPerm   420 ]
+1008 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js
+1009 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js',
+1009 silly gunzTarPerm   436,
+1009 silly gunzTarPerm   420 ]
+1010 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js
+1011 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js',
+1011 silly gunzTarPerm   436,
+1011 silly gunzTarPerm   420 ]
+1012 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/package.json
+1013 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/package.json',
+1013 silly gunzTarPerm   436,
+1013 silly gunzTarPerm   420 ]
+1014 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/README.md
+1015 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/README.md',
+1015 silly gunzTarPerm   436,
+1015 silly gunzTarPerm   420 ]
+1016 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/LICENSE
+1017 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/LICENSE',
+1017 silly gunzTarPerm   436,
+1017 silly gunzTarPerm   420 ]
+1018 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/inherits.js
+1019 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/inherits.js',
+1019 silly gunzTarPerm   436,
+1019 silly gunzTarPerm   420 ]
+1020 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/inherits_browser.js
+1021 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/inherits_browser.js',
+1021 silly gunzTarPerm   436,
+1021 silly gunzTarPerm   420 ]
+1022 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/inherits/test.js
+1023 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/inherits/test.js',
+1023 silly gunzTarPerm   436,
+1023 silly gunzTarPerm   420 ]
+1024 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/package.json
+1025 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/package.json',
+1025 silly gunzTarPerm   436,
+1025 silly gunzTarPerm   420 ]
+1026 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/README.md
+1027 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/README.md',
+1027 silly gunzTarPerm   436,
+1027 silly gunzTarPerm   420 ]
+1028 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/LICENSE
+1029 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/LICENSE',
+1029 silly gunzTarPerm   436,
+1029 silly gunzTarPerm   420 ]
+1030 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/browser.js
+1031 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/browser.js',
+1031 silly gunzTarPerm   436,
+1031 silly gunzTarPerm   420 ]
+1032 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/minimatch.js
+1033 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/minimatch.js',
+1033 silly gunzTarPerm   436,
+1033 silly gunzTarPerm   420 ]
+1034 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json
+1035 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/package.json',
+1035 silly gunzTarPerm   436,
+1035 silly gunzTarPerm   420 ]
+1036 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.npmignore
+1037 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.npmignore',
+1037 silly gunzTarPerm   436,
+1037 silly gunzTarPerm   420 ]
+1038 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/README.md
+1039 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/README.md',
+1039 silly gunzTarPerm   436,
+1039 silly gunzTarPerm   420 ]
+1040 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js
+1041 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js',
+1041 silly gunzTarPerm   436,
+1041 silly gunzTarPerm   420 ]
+1042 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js
+1043 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js',
+1043 silly gunzTarPerm   436,
+1043 silly gunzTarPerm   420 ]
+1044 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.travis.yml
+1045 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.travis.yml',
+1045 silly gunzTarPerm   436,
+1045 silly gunzTarPerm   420 ]
+1046 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-comparison.js
+1047 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-comparison.js',
+1047 silly gunzTarPerm   436,
+1047 silly gunzTarPerm   420 ]
+1048 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/same-type.js
+1049 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/same-type.js',
+1049 silly gunzTarPerm   436,
+1049 silly gunzTarPerm   420 ]
+1050 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/dollar.js
+1051 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/dollar.js',
+1051 silly gunzTarPerm   436,
+1051 silly gunzTarPerm   420 ]
+1052 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/empty-option.js
+1053 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/empty-option.js',
+1053 silly gunzTarPerm   436,
+1053 silly gunzTarPerm   420 ]
+1054 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/pad.js
+1055 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/pad.js',
+1055 silly gunzTarPerm   436,
+1055 silly gunzTarPerm   420 ]
+1056 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/order.js
+1057 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/order.js',
+1057 silly gunzTarPerm   436,
+1057 silly gunzTarPerm   420 ]
+1058 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/nested.js
+1059 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/nested.js',
+1059 silly gunzTarPerm   436,
+1059 silly gunzTarPerm   420 ]
+1060 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/sequence.js
+1061 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/sequence.js',
+1061 silly gunzTarPerm   436,
+1061 silly gunzTarPerm   420 ]
+1062 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/negative-increment.js
+1063 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/negative-increment.js',
+1063 silly gunzTarPerm   436,
+1063 silly gunzTarPerm   420 ]
+1064 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-results.txt
+1065 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/bash-results.txt',
+1065 silly gunzTarPerm   436,
+1065 silly gunzTarPerm   420 ]
+1066 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/generate.sh
+1067 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/generate.sh',
+1067 silly gunzTarPerm   436,
+1067 silly gunzTarPerm   420 ]
+1068 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/cases.txt
+1069 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/test/cases.txt',
+1069 silly gunzTarPerm   436,
+1069 silly gunzTarPerm   420 ]
+1070 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json
+1071 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/package.json',
+1071 silly gunzTarPerm   436,
+1071 silly gunzTarPerm   420 ]
+1072 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.npmignore
+1073 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.npmignore',
+1073 silly gunzTarPerm   436,
+1073 silly gunzTarPerm   420 ]
+1074 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/README.md
+1075 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/README.md',
+1075 silly gunzTarPerm   436,
+1075 silly gunzTarPerm   420 ]
+1076 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js
+1077 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js',
+1077 silly gunzTarPerm   436,
+1077 silly gunzTarPerm   420 ]
+1078 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js
+1079 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/index.js',
+1079 silly gunzTarPerm   436,
+1079 silly gunzTarPerm   420 ]
+1080 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.travis.yml
+1081 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/.travis.yml',
+1081 silly gunzTarPerm   436,
+1081 silly gunzTarPerm   420 ]
+1082 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/Makefile
+1083 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/Makefile',
+1083 silly gunzTarPerm   436,
+1083 silly gunzTarPerm   420 ]
+1084 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/balanced.js
+1085 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/test/balanced.js',
+1085 silly gunzTarPerm   436,
+1085 silly gunzTarPerm   420 ]
+1086 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json
+1087 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/package.json',
+1087 silly gunzTarPerm   436,
+1087 silly gunzTarPerm   420 ]
+1088 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/LICENSE
+1089 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/LICENSE',
+1089 silly gunzTarPerm   436,
+1089 silly gunzTarPerm   420 ]
+1090 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js
+1091 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/index.js',
+1091 silly gunzTarPerm   436,
+1091 silly gunzTarPerm   420 ]
+1092 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/.travis.yml
+1093 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/.travis.yml',
+1093 silly gunzTarPerm   436,
+1093 silly gunzTarPerm   420 ]
+1094 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/README.markdown
+1095 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/README.markdown',
+1095 silly gunzTarPerm   436,
+1095 silly gunzTarPerm   420 ]
+1096 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js
+1097 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js',
+1097 silly gunzTarPerm   436,
+1097 silly gunzTarPerm   420 ]
+1098 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js
+1099 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/test/map.js',
+1099 silly gunzTarPerm   436,
+1099 silly gunzTarPerm   420 ]
+1100 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/package.json
+1101 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/package.json',
+1101 silly gunzTarPerm   436,
+1101 silly gunzTarPerm   420 ]
+1102 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/README.md
+1103 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/README.md',
+1103 silly gunzTarPerm   436,
+1103 silly gunzTarPerm   420 ]
+1104 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/LICENSE
+1105 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/LICENSE', 436, 420 ]
+1106 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/once.js
+1107 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/once.js', 436, 420 ]
+1108 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/test/once.js
+1109 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/test/once.js',
+1109 silly gunzTarPerm   436,
+1109 silly gunzTarPerm   420 ]
+1110 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/package.json
+1111 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/package.json',
+1111 silly gunzTarPerm   436,
+1111 silly gunzTarPerm   420 ]
+1112 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/README.md
+1113 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/README.md',
+1113 silly gunzTarPerm   436,
+1113 silly gunzTarPerm   420 ]
+1114 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/LICENSE
+1115 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/LICENSE',
+1115 silly gunzTarPerm   436,
+1115 silly gunzTarPerm   420 ]
+1116 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js
+1117 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/wrappy.js',
+1117 silly gunzTarPerm   436,
+1117 silly gunzTarPerm   420 ]
+1118 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/once/node_modules/wrappy/test/basic.js
+1119 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/once/node_modules/wrappy/test/basic.js',
+1119 silly gunzTarPerm   436,
+1119 silly gunzTarPerm   420 ]
+1120 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/path-is-absolute/package.json
+1121 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/path-is-absolute/package.json',
+1121 silly gunzTarPerm   436,
+1121 silly gunzTarPerm   420 ]
+1122 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/path-is-absolute/index.js
+1123 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/path-is-absolute/index.js',
+1123 silly gunzTarPerm   436,
+1123 silly gunzTarPerm   420 ]
+1124 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/path-is-absolute/license
+1125 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/path-is-absolute/license',
+1125 silly gunzTarPerm   436,
+1125 silly gunzTarPerm   420 ]
+1126 silly gunzTarPerm extractEntry tools/node_modules/glob/node_modules/path-is-absolute/readme.md
+1127 silly gunzTarPerm modified mode [ 'tools/node_modules/glob/node_modules/path-is-absolute/readme.md',
+1127 silly gunzTarPerm   436,
+1127 silly gunzTarPerm   420 ]
+1128 silly gunzTarPerm extractEntry secp256k1-src/src/field_10x26.h
+1129 silly gunzTarPerm extractEntry secp256k1-src/src/field_10x26_impl.h
+1130 silly gunzTarPerm extractEntry examples/manager.html
+1131 silly gunzTarPerm modified mode [ 'examples/manager.html', 436, 420 ]
+1132 silly gunzTarPerm extractEntry test/ecdh-test.js
+1133 silly gunzTarPerm extractEntry test/ecdsa-test.js
+1134 silly gunzTarPerm extractEntry secp256k1-src/src/field_5x52.h
+1135 silly gunzTarPerm extractEntry secp256k1-src/src/field_5x52_asm_impl.h
+1136 silly gunzTarPerm extractEntry test/ed25519-test.js
+1137 silly gunzTarPerm extractEntry test/hmac-drbg-test.js
+1138 silly gunzTarPerm extractEntry test/fixtures/derivation-fixtures.js
+1139 silly gunzTarPerm extractEntry secp256k1-src/src/field_5x52_impl.h
+1140 silly gunzTarPerm extractEntry secp256k1-src/src/field_5x52_int128_impl.h
+1141 silly gunzTarPerm extractEntry test/fixtures/sign.input
+1142 silly gunzTarPerm extractEntry secp256k1-src/src/bench_inv.c
+1143 silly gunzTarPerm extractEntry secp256k1-src/src/group.h
+1144 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-e8483f44/node_modules is being purged
+1145 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-e8483f44/node_modules
+1146 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-c5b815f8/node_modules is being purged
+1147 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/bn.js-c5b815f8/node_modules
+1148 silly gunzTarPerm extractEntry secp256k1-src/src/group_impl.h
+1149 silly gunzTarPerm extractEntry secp256k1-src/src/hash.h
+1150 silly gunzTarPerm extractEntry secp256k1-src/src/hash_impl.h
+1151 silly gunzTarPerm extractEntry secp256k1-src/src/java/org/bitcoin/NativeSecp256k1.java
+1152 silly gunzTarPerm extractEntry secp256k1-src/src/java/org_bitcoin_NativeSecp256k1.c
+1153 silly gunzTarPerm extractEntry secp256k1-src/src/java/org_bitcoin_NativeSecp256k1.h
+1154 silly gunzTarPerm extractEntry secp256k1-src/src/num.h
+1155 silly gunzTarPerm extractEntry secp256k1-src/src/num_gmp.h
+1156 silly gunzTarPerm extractEntry secp256k1-src/src/num_gmp_impl.h
+1157 silly gunzTarPerm extractEntry secp256k1-src/src/num_impl.h
+1158 silly gunzTarPerm extractEntry secp256k1-src/src/scalar.h
+1159 silly gunzTarPerm extractEntry secp256k1-src/src/scalar_4x64.h
+1160 silly gunzTarPerm extractEntry secp256k1-src/src/scalar_4x64_impl.h
+1161 silly gunzTarPerm extractEntry secp256k1-src/src/scalar_8x32.h
+1162 silly gunzTarPerm extractEntry secp256k1-src/src/scalar_8x32_impl.h
+1163 silly gunzTarPerm extractEntry secp256k1-src/src/scalar_impl.h
+1164 silly gunzTarPerm extractEntry secp256k1-src/src/secp256k1.c
+1165 silly gunzTarPerm extractEntry secp256k1-src/src/testrand.h
+1166 silly gunzTarPerm extractEntry secp256k1-src/src/testrand_impl.h
+1167 silly gunzTarPerm extractEntry secp256k1-src/src/tests.c
+1168 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-tx-fd057e57/node_modules is being purged
+1169 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-tx-fd057e57/node_modules
+1170 silly gunzTarPerm extractEntry secp256k1-src/src/util.h
+1171 silly gunzTarPerm extractEntry secp256k1-src/TODO
+1172 silly gunzTarPerm extractEntry secp256k1-src/.travis.yml
+1173 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-fd7ef739/node_modules is being purged
+1174 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-fd7ef739/node_modules
+1175 silly gunzTarPerm extractEntry secp256k1-src/configure.ac
+1176 silly gunzTarPerm extractEntry secp256k1-src/include/secp256k1.h
+1177 silly gunzTarPerm extractEntry secp256k1-src/libsecp256k1.pc.in
+1178 silly gunzTarPerm extractEntry secp256k1-src/obj/.npmignore
+1179 silly gunzTarPerm extractEntry secp256k1-src/autogen.sh
+1180 silly gunzTarPerm extractEntry secp256k1.cc
+1181 silly gunzTarPerm extractEntry test/index.js
+1182 silly gunzTarPerm extractEntry test/build/config.gypi
+1183 silly gunzTarPerm extractEntry utils/has_lib.sh
+1184 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-accounts-55a86dd9/node_modules is being purged
+1185 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/ethereumjs-accounts-55a86dd9/node_modules
+1186 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-86de1642/node_modules is being purged
+1187 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/elliptic-86de1642/node_modules
+1188 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/secp256k1-755e23fc/node_modules is being purged
+1189 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/secp256k1-755e23fc/node_modules
+1190 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/nan-9f833897/node_modules is being purged
+1191 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/.staging/nan-9f833897/node_modules
+1192 silly doParallel preinstall 12
+1193 silly preinstall bn.js@2.2.0
+1194 info lifecycle bn.js@2.2.0~preinstall: bn.js@2.2.0
+1195 silly preinstall browserify-sha3@0.0.0
+1196 info lifecycle browserify-sha3@0.0.0~preinstall: browserify-sha3@0.0.0
+1197 silly preinstall elliptic@3.1.0
+1198 info lifecycle elliptic@3.1.0~preinstall: elliptic@3.1.0
+1199 silly preinstall bn.js@3.3.0
+1200 info lifecycle bn.js@3.3.0~preinstall: bn.js@3.3.0
+1201 silly preinstall elliptic@5.2.1
+1202 info lifecycle elliptic@5.2.1~preinstall: elliptic@5.2.1
+1203 silly preinstall nan@1.9.0
+1204 info lifecycle nan@1.9.0~preinstall: nan@1.9.0
+1205 silly preinstall rlp@1.1.2
+1206 info lifecycle rlp@1.1.2~preinstall: rlp@1.1.2
+1207 silly preinstall ethereumjs-util@1.5.1
+1208 info lifecycle ethereumjs-util@1.5.1~preinstall: ethereumjs-util@1.5.1
+1209 silly preinstall secp256k1@0.0.15
+1210 info lifecycle secp256k1@0.0.15~preinstall: secp256k1@0.0.15
+1211 silly preinstall e@0.0.4
+1212 info lifecycle e@0.0.4~preinstall: e@0.0.4
+1213 silly preinstall ethereumjs-tx@0.4.0
+1214 info lifecycle ethereumjs-tx@0.4.0~preinstall: ethereumjs-tx@0.4.0
+1215 silly preinstall ethereumjs-accounts@0.0.15
+1216 info lifecycle ethereumjs-accounts@0.0.15~preinstall: ethereumjs-accounts@0.0.15
+1217 silly lifecycle bn.js@2.2.0~preinstall: no script for preinstall, continuing
+1218 silly lifecycle browserify-sha3@0.0.0~preinstall: no script for preinstall, continuing
+1219 silly lifecycle elliptic@3.1.0~preinstall: no script for preinstall, continuing
+1220 silly lifecycle bn.js@3.3.0~preinstall: no script for preinstall, continuing
+1221 silly lifecycle elliptic@5.2.1~preinstall: no script for preinstall, continuing
+1222 silly lifecycle nan@1.9.0~preinstall: no script for preinstall, continuing
+1223 silly lifecycle rlp@1.1.2~preinstall: no script for preinstall, continuing
+1224 silly lifecycle ethereumjs-util@1.5.1~preinstall: no script for preinstall, continuing
+1225 silly lifecycle secp256k1@0.0.15~preinstall: no script for preinstall, continuing
+1226 silly lifecycle e@0.0.4~preinstall: no script for preinstall, continuing
+1227 silly lifecycle ethereumjs-tx@0.4.0~preinstall: no script for preinstall, continuing
+1228 silly lifecycle ethereumjs-accounts@0.0.15~preinstall: no script for preinstall, continuing
+1229 silly doReverseSerial remove 1
+1230 silly remove /Users/admin/Desktop/RawTxnDemo/node_modules/e
+1231 verbose unbuild node_modules/e
+1232 info lifecycle e@0.0.4~preuninstall: e@0.0.4
+1233 silly lifecycle e@0.0.4~preuninstall: no script for preuninstall, continuing
+1234 info lifecycle e@0.0.4~uninstall: e@0.0.4
+1235 silly lifecycle e@0.0.4~uninstall: no script for uninstall, continuing
+1236 verbose unbuild rmStuff e@0.0.4 from /Users/admin/Desktop/RawTxnDemo/node_modules
+1237 info lifecycle e@0.0.4~postuninstall: e@0.0.4
+1238 silly lifecycle e@0.0.4~postuninstall: no script for postuninstall, continuing
+1239 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/e is being purged from base /Users/admin/Desktop/RawTxnDemo
+1240 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/e
+1241 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/e
+1242 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1243 silly doSerial move 0
+1244 silly doSerial finalize 12
+1245 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/bn.js
+1246 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/browserify-sha3
+1247 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/elliptic
+1248 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-util/node_modules/bn.js
+1249 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-util/node_modules/elliptic
+1250 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1251 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/rlp
+1252 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-util
+1253 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1254 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/e
+1255 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1256 silly finalize /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1257 silly doSerial build 12
+1258 silly build bn.js@2.2.0
+1259 info linkStuff bn.js@2.2.0
+1260 silly linkStuff bn.js@2.2.0 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules as its parent node_modules
+1261 verbose linkBins bn.js@2.2.0
+1262 verbose linkMans bn.js@2.2.0
+1263 silly build browserify-sha3@0.0.0
+1264 info linkStuff browserify-sha3@0.0.0
+1265 silly linkStuff browserify-sha3@0.0.0 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules as its parent node_modules
+1266 verbose linkBins browserify-sha3@0.0.0
+1267 verbose linkMans browserify-sha3@0.0.0
+1268 silly build elliptic@3.1.0
+1269 info linkStuff elliptic@3.1.0
+1270 silly linkStuff elliptic@3.1.0 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules as its parent node_modules
+1271 verbose linkBins elliptic@3.1.0
+1272 verbose linkMans elliptic@3.1.0
+1273 silly build bn.js@3.3.0
+1274 info linkStuff bn.js@3.3.0
+1275 silly linkStuff bn.js@3.3.0 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-util/node_modules as its parent node_modules
+1276 verbose linkBins bn.js@3.3.0
+1277 verbose linkMans bn.js@3.3.0
+1278 silly build elliptic@5.2.1
+1279 info linkStuff elliptic@5.2.1
+1280 silly linkStuff elliptic@5.2.1 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-util/node_modules as its parent node_modules
+1281 verbose linkBins elliptic@5.2.1
+1282 verbose linkMans elliptic@5.2.1
+1283 silly build nan@1.9.0
+1284 info linkStuff nan@1.9.0
+1285 silly linkStuff nan@1.9.0 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules as its parent node_modules
+1286 verbose linkBins nan@1.9.0
+1287 verbose linkMans nan@1.9.0
+1288 silly build rlp@1.1.2
+1289 info linkStuff rlp@1.1.2
+1290 silly linkStuff rlp@1.1.2 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules as its parent node_modules
+1291 verbose linkBins rlp@1.1.2
+1292 verbose linkBins [ { rlp: './bin/rlp' },
+1292 verbose linkBins   '/Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/.bin',
+1292 verbose linkBins   false ]
+1293 verbose linkMans rlp@1.1.2
+1294 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/.bin/rlp is being purged
+1295 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/.bin/rlp
+1296 silly build ethereumjs-util@1.5.1
+1297 info linkStuff ethereumjs-util@1.5.1
+1298 silly linkStuff ethereumjs-util@1.5.1 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules as its parent node_modules
+1299 verbose linkBins ethereumjs-util@1.5.1
+1300 verbose linkMans ethereumjs-util@1.5.1
+1301 silly build secp256k1@0.0.15
+1302 info linkStuff secp256k1@0.0.15
+1303 silly linkStuff secp256k1@0.0.15 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules as its parent node_modules
+1304 verbose linkBins secp256k1@0.0.15
+1305 verbose linkMans secp256k1@0.0.15
+1306 silly build e@0.0.4
+1307 info linkStuff e@0.0.4
+1308 silly linkStuff e@0.0.4 has /Users/admin/Desktop/RawTxnDemo/node_modules as its parent node_modules
+1309 verbose linkBins e@0.0.4
+1310 verbose linkMans e@0.0.4
+1311 silly build ethereumjs-tx@0.4.0
+1312 info linkStuff ethereumjs-tx@0.4.0
+1313 silly linkStuff ethereumjs-tx@0.4.0 has /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules as its parent node_modules
+1314 verbose linkBins ethereumjs-tx@0.4.0
+1315 verbose linkMans ethereumjs-tx@0.4.0
+1316 silly build ethereumjs-accounts@0.0.15
+1317 info linkStuff ethereumjs-accounts@0.0.15
+1318 silly linkStuff ethereumjs-accounts@0.0.15 has /Users/admin/Desktop/RawTxnDemo/node_modules as its parent node_modules
+1319 verbose linkBins ethereumjs-accounts@0.0.15
+1320 verbose linkMans ethereumjs-accounts@0.0.15
+1321 silly doSerial global-link 0
+1322 silly doParallel update-linked 0
+1323 silly doSerial install 12
+1324 silly install bn.js@2.2.0
+1325 info lifecycle bn.js@2.2.0~install: bn.js@2.2.0
+1326 silly lifecycle bn.js@2.2.0~install: no script for install, continuing
+1327 silly install browserify-sha3@0.0.0
+1328 info lifecycle browserify-sha3@0.0.0~install: browserify-sha3@0.0.0
+1329 silly lifecycle browserify-sha3@0.0.0~install: no script for install, continuing
+1330 silly install elliptic@3.1.0
+1331 info lifecycle elliptic@3.1.0~install: elliptic@3.1.0
+1332 silly lifecycle elliptic@3.1.0~install: no script for install, continuing
+1333 silly install bn.js@3.3.0
+1334 info lifecycle bn.js@3.3.0~install: bn.js@3.3.0
+1335 silly lifecycle bn.js@3.3.0~install: no script for install, continuing
+1336 silly install elliptic@5.2.1
+1337 info lifecycle elliptic@5.2.1~install: elliptic@5.2.1
+1338 silly lifecycle elliptic@5.2.1~install: no script for install, continuing
+1339 silly install nan@1.9.0
+1340 info lifecycle nan@1.9.0~install: nan@1.9.0
+1341 silly lifecycle nan@1.9.0~install: no script for install, continuing
+1342 silly install rlp@1.1.2
+1343 info lifecycle rlp@1.1.2~install: rlp@1.1.2
+1344 silly lifecycle rlp@1.1.2~install: no script for install, continuing
+1345 silly install ethereumjs-util@1.5.1
+1346 info lifecycle ethereumjs-util@1.5.1~install: ethereumjs-util@1.5.1
+1347 silly lifecycle ethereumjs-util@1.5.1~install: no script for install, continuing
+1348 silly install secp256k1@0.0.15
+1349 info lifecycle secp256k1@0.0.15~install: secp256k1@0.0.15
+1350 verbose lifecycle secp256k1@0.0.15~install: unsafe-perm in lifecycle true
+1351 verbose lifecycle secp256k1@0.0.15~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1/node_modules/.bin:/Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/.bin:/Users/admin/Desktop/RawTxnDemo/node_modules/.bin:/usr/local/go/bin:/Users/admin/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin
+1352 verbose lifecycle secp256k1@0.0.15~install: CWD: /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1353 silly lifecycle secp256k1@0.0.15~install: Args: [ '-c', 'node-gyp rebuild' ]
+1354 silly lifecycle secp256k1@0.0.15~install: Returned: code: 1  signal: null
+1355 info lifecycle secp256k1@0.0.15~install: Failed to exec install script
+1356 verbose unlock done using /Users/admin/.npm/_locks/staging-396821d390608a2d.lock for /Users/admin/Desktop/RawTxnDemo/node_modules/.staging
+1357 silly rollbackFailedOptional Starting
+1358 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan is being purged from base /Users/admin/Desktop/RawTxnDemo
+1359 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1360 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan is being purged from base /Users/admin/Desktop/RawTxnDemo
+1361 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1362 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan is being purged from base /Users/admin/Desktop/RawTxnDemo
+1363 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1364 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan is being purged from base /Users/admin/Desktop/RawTxnDemo
+1365 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1366 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan is being purged from base /Users/admin/Desktop/RawTxnDemo
+1367 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1368 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan is being purged from base /Users/admin/Desktop/RawTxnDemo
+1369 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1370 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan is being purged from base /Users/admin/Desktop/RawTxnDemo
+1371 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1372 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan is being purged from base /Users/admin/Desktop/RawTxnDemo
+1373 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1374 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1 is being purged from base /Users/admin/Desktop/RawTxnDemo
+1375 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1376 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1 is being purged from base /Users/admin/Desktop/RawTxnDemo
+1377 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1378 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1 is being purged from base /Users/admin/Desktop/RawTxnDemo
+1379 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1380 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1 is being purged from base /Users/admin/Desktop/RawTxnDemo
+1381 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1382 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1 is being purged from base /Users/admin/Desktop/RawTxnDemo
+1383 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1384 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1 is being purged from base /Users/admin/Desktop/RawTxnDemo
+1385 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1386 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1 is being purged from base /Users/admin/Desktop/RawTxnDemo
+1387 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1388 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1 is being purged from base /Users/admin/Desktop/RawTxnDemo
+1389 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1390 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx is being purged from base /Users/admin/Desktop/RawTxnDemo
+1391 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1392 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx is being purged from base /Users/admin/Desktop/RawTxnDemo
+1393 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1394 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx is being purged from base /Users/admin/Desktop/RawTxnDemo
+1395 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1396 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx is being purged from base /Users/admin/Desktop/RawTxnDemo
+1397 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1398 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx is being purged from base /Users/admin/Desktop/RawTxnDemo
+1399 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1400 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx is being purged from base /Users/admin/Desktop/RawTxnDemo
+1401 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1402 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx is being purged from base /Users/admin/Desktop/RawTxnDemo
+1403 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1404 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx is being purged from base /Users/admin/Desktop/RawTxnDemo
+1405 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1406 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts is being purged from base /Users/admin/Desktop/RawTxnDemo
+1407 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1408 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts is being purged from base /Users/admin/Desktop/RawTxnDemo
+1409 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1410 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts is being purged from base /Users/admin/Desktop/RawTxnDemo
+1411 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1412 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts is being purged from base /Users/admin/Desktop/RawTxnDemo
+1413 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1414 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts is being purged from base /Users/admin/Desktop/RawTxnDemo
+1415 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1416 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts is being purged from base /Users/admin/Desktop/RawTxnDemo
+1417 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1418 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts is being purged from base /Users/admin/Desktop/RawTxnDemo
+1419 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1420 silly gentlyRm /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts is being purged from base /Users/admin/Desktop/RawTxnDemo
+1421 verbose gentlyRm don't care about contents; nuking /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1422 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1423 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1424 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1425 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1426 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1427 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1428 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1429 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/nan
+1430 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1431 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1432 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1433 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1434 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1435 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1436 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1437 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/secp256k1
+1438 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1439 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1440 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1441 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1442 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1443 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1444 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1445 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules/ethereumjs-tx
+1446 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1447 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1448 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1449 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1450 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1451 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1452 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1453 silly vacuum-fs purging /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts
+1454 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1455 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1456 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1457 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1458 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1459 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1460 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1461 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1462 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1463 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1464 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1465 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1466 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1467 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1468 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1469 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1470 silly vacuum-fs removing /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1471 silly vacuum-fs removing /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1472 silly vacuum-fs removing /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1473 silly vacuum-fs removing /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1474 silly vacuum-fs removing /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1475 silly vacuum-fs removing /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1476 silly vacuum-fs removing /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1477 silly vacuum-fs removing /Users/admin/Desktop/RawTxnDemo/node_modules/ethereumjs-accounts/node_modules
+1478 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1479 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1480 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1481 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1482 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1483 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1484 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1485 silly vacuum-fs quitting because other entries in /Users/admin/Desktop/RawTxnDemo/node_modules
+1486 silly rollbackFailedOptional Finishing
+1487 silly runTopLevelLifecycles Finishing
+1488 silly install printInstalled
+1489 warn RawTxnDemo@0.0.1 No repository field.
+1490 verbose If you need help, you may report this error at:
+1490 verbose     <https://github.com/npm/npm/issues>
+1491 warn RawTxnDemo@0.0.1 No license field.
+1492 verbose If you need help, you may report this error at:
+1492 verbose     <https://github.com/npm/npm/issues>
+1493 verbose stack Error: secp256k1@0.0.15 install: `node-gyp rebuild`
+1493 verbose stack Exit status 1
+1493 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+1493 verbose stack     at emitTwo (events.js:106:13)
+1493 verbose stack     at EventEmitter.emit (events.js:191:7)
+1493 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+1493 verbose stack     at emitTwo (events.js:106:13)
+1493 verbose stack     at ChildProcess.emit (events.js:191:7)
+1493 verbose stack     at maybeClose (internal/child_process.js:885:16)
+1493 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+1494 verbose pkgid secp256k1@0.0.15
+1495 verbose cwd /Users/admin/Desktop/RawTxnDemo
+1496 error Darwin 16.6.0
+1497 error argv "/usr/local/Cellar/node/7.4.0/bin/node" "/usr/local/bin/npm" "install" "ethereumjs-accounts" "--sav" "e"
+1498 error node v7.4.0
+1499 error npm  v4.0.5
+1500 error code ELIFECYCLE
+1501 error secp256k1@0.0.15 install: `node-gyp rebuild`
+1501 error Exit status 1
+1502 error Failed at the secp256k1@0.0.15 install script 'node-gyp rebuild'.
+1502 error Make sure you have the latest version of node.js and npm installed.
+1502 error If you do, this is most likely a problem with the secp256k1 package,
+1502 error not with npm itself.
+1502 error Tell the author that this fails on your system:
+1502 error     node-gyp rebuild
+1502 error You can get information on how to open an issue for this project with:
+1502 error     npm bugs secp256k1
+1502 error Or if that isn't available, you can get their info via:
+1502 error     npm owner ls secp256k1
+1502 error There is likely additional logging output above.
+1503 verbose exit [ 1, true ]
